@@ -1,0 +1,12 @@
+.title{
+    color: #fff;
+    text-shadow: 1px 1px 10px #000;
+    text-transform: capitalize;
+}
+.intro{
+    padding-top: 250px !important;
+    height: 100vh;
+    background-image: url("./img/mac.jpg");
+    background-repeat: no-repeat;
+    color: rgb(246, 246, 246);
+}
