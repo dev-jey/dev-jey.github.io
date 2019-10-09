@@ -1,4 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Be+Vietnam|Pacifico&display=swap");
+body {
+  background: rgb(243, 243, 243);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.card-header {
+  background: #fff !important;
+  border-bottom: solid 1px rgb(245, 245, 245);
+}
+.card {
+  border: none;
+  margin: 1% 2%;
+  box-shadow: 1px 1px 10px rgb(230, 230, 230);
+}
+hr {
+  width: 80px;
+  border-radius: 10px;
+  background: rgb(255, 204, 109);
+  margin: auto;
+  height: 20px;
+}
 .title {
   color: #fff;
   text-shadow: 1px 1px 10px #000;
@@ -59,16 +85,19 @@
   }
 }
 
-.fa-arrow-circle-down{
-    bottom: 0;
-    color:red;
+.fa-arrow-circle-down {
+  bottom: 0;
+  color: red;
 }
 .rank-label-container {
-    margin-top: -19px;
-    text-align: center;
+  margin-top: -19px;
+  text-align: center;
 }
 
 .rank-label {
-    padding: 5px 10px 5px 10px;
-    border-radius: 7px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 7px;
+}
+.about-info{
+    padding: 4%;
 }

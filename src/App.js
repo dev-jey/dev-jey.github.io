@@ -64,7 +64,7 @@ class App extends React.Component {
     return (
       <div className="App mx-auto">
         <section className="intro text-center" id="title-section">
-          <div className="title-text wow slideInDown">
+          <div className="title-text wow slideIn">
             <div>
               <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1570647972/__254_708_197333__20190127_223752.jpg"
                 width="200"
@@ -73,7 +73,7 @@ class App extends React.Component {
                 alt="" />
               <div class="rank-label-container">
                 <label htmlFor="file-upload" class="rank-label">
-                <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1570648506/flag.png" width="20" alt="" />
+                  <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1570648506/flag.png" width="20" alt="" />
                 </label>
               </div>
             </div>
@@ -90,8 +90,37 @@ class App extends React.Component {
           </div>
           <i className="fas fa-arrow-circle-down fa-5x"></i>
         </section>
-        <section className="about-me" id="about-me">
-          
+        <br></br>
+        <br></br>
+        <section className="about-me container-fluid" id="about-me">
+        <div className="row">
+          <div className="card about-info col-md-6">
+            <h2 className="title">About me</h2>
+            <hr></hr>
+            <br></br>
+            <div className="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+          </div>
+          <div className="col-md-5">
+            <img src="https://b.kisscc0.com/20180705/kzw/kisscc0-programmer-computer-programming-download-hacker-african-programmer-with-slower-internet-5b3e30f90c1952.9016927115308024250496.png" alt=""  width="70%" height="375" 
+            className="mx-auto d-flex flex-wrap align-items-center"/>
+          </div>
+          </div>
+        </section>
+        <section>
+          Skills
         </section>
       </div>
     );
