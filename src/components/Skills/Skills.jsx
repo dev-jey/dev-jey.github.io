@@ -92,7 +92,6 @@ export class Skills extends Component {
                                 </div>
                             </div>
                         </div>
-                        <br></br><br></br>
                         <div className="row mx-auto text-center">
                             <div class="col-lg-3 col-md-6">
                                 <div class="icon mb-3 mt-5"><i class="fab fa-aws fa-5x"></i></div>
