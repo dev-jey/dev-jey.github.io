@@ -4,9 +4,11 @@ export class About extends Component {
     render() {
         return (
             <section className="about-me container-fluid" id="about-me">
+            <br></br>
                 <div className="text-center">
                     <h2 style={{textTransform:"uppercase"}}>Personal Info</h2>
                     <hr className="normal-hr"></hr>
+                    <br></br>
                     <div className="text-muted col-8 mx-auto">ipsum dolor sit amet, consectetur adipiscing elit,
                                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -34,7 +36,7 @@ export class About extends Component {
                         </div>
                     </div>
                     <div className="col-md-5 mx-auto">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Code.org_logo.svg/1200px-Code.org_logo.svg.png" alt="" width="100%" height="100%"
+                        <img src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png" alt="" width="100%" height="100%"
                             style={{ paddingTop: "3%" }} />
                     </div>
                 </div>

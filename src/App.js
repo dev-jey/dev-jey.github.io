@@ -3,6 +3,7 @@ import './App.css';
 import Welcome from './components/Welcome/Welcome';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
+import Pastwork from './components/Pastwork/Pastwork';
 class App extends React.Component {
   componentDidMount() {
 
@@ -79,6 +80,10 @@ class App extends React.Component {
         <br></br>
         <br></br>
         <Skills />
+        <br></br>
+        <br></br>
+        <br></br>
+        <Pastwork />
       </div>
     );
   }
