@@ -4,6 +4,7 @@ import Welcome from './components/Welcome/Welcome';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Pastwork from './components/Pastwork/Pastwork';
+import Contact from './components/Contact/Contact';
 class App extends React.Component {
   componentDidMount() {
 
@@ -84,6 +85,9 @@ class App extends React.Component {
         <br></br>
         <br></br>
         <Pastwork />
+        <br></br>
+        <br></br>
+        <Contact />
       </div>
     );
   }
