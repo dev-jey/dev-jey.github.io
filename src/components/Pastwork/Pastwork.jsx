@@ -23,7 +23,7 @@ export class Pastwork extends Component {
                         <div id="home2" role="tabpanel" aria-labelledby="home-tab" class="tab-pane fade px-4 py-5 show active">
                             <div class="row">
                                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                                    <div class="bg-white rounded shadow-sm"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556294929/matthew-hamilton-351641-unsplash_zmvozs.jpg" alt="" class="img-fluid card-img-top" />
+                                    <div class="bg-white rounded shadow-sm"><img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1570829057/storo/Screen_Shot_2019-10-12_at_00.23.14.png" alt="" class="img-fluid card-img-top" />
                                         <div class="p-4">
                                             <h5> <a href="http://www.fadhilanetwork.com" target="_blank" rel="noopener noreferrer" class="text-dark">Fadhila Network</a></h5>
                                             <p class="small text-muted mb-0">Key aspects</p>
@@ -38,7 +38,7 @@ export class Pastwork extends Component {
                         </div>
 
                         <div id="profile2" role="tabpanel" aria-labelledby="profile-tab" class="tab-pane fade px-4 py-5">
-                            <div className="row">
+                            {/* <div className="row">
                                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
                                     <div class="bg-white rounded shadow-sm"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556294927/cody-davis-253928-unsplash_vfcdcl.jpg" alt="" class="img-fluid card-img-top" />
                                         <div class="p-4">
@@ -50,8 +50,8 @@ export class Pastwork extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </div> */}
+                            {/* </div> */}
 
                         </div>
                     </div>
