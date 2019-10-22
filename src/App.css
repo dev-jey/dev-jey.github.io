@@ -32,6 +32,16 @@ html {
   border-radius: 5px;
   background: rgb(255, 204, 109);
 }
+.text-mute{
+  color: rgb(58, 58, 58)
+}
+.normal-hr-2{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  background: rgb(255, 223, 163);
+}
 .title {
   color: #fff;
   text-shadow: 1px 1px 10px #000;

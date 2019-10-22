@@ -14,7 +14,7 @@ export class Skills extends Component {
                             <div class="col-lg-3 col-md-6 ">
                                 <div class="icon mb-3 mt-5"><i class="fab fa-python fa-5x"></i></div>
                                 <h4 class="text-uppercase">Python</h4>
-                                <p class="text-mted">I am proficient in python web frameworks, data analysis and general algorithms.</p>
+                                <p class="text-muted">I am proficient in python web frameworks, data analysis and general algorithms.</p>
                                 Django
                                     <div class="progress">
                                     <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
@@ -39,7 +39,7 @@ export class Skills extends Component {
                             <div class="col-lg-3 col-md-6 ">
                                 <div class="icon mb-3 mt-5"><i class="fab fa-js fa-5x"></i></div>
                                 <h4 class="text-uppercase">Javascript</h4>
-                                <p class="text-mted">Am a PEAN full stack js developer. I have experience in both front and backend development.</p>
+                                <p class="text-muted">Am a PEAN full stack js developer. I have experience in both front and backend development.</p>
                                 Node-Express
                                     <div class="progress">
                                     <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
@@ -64,7 +64,7 @@ export class Skills extends Component {
                             <div class="col-lg-3 col-md-6 ">
                                 <div class="icon mb-3 mt-5"><i class="fab fa-java fa-5x"></i></div>
                                 <h4 class="text-uppercase">Java</h4>
-                                <p class="text-mted">Am well informed in OOP, and I can comfortably create a stand-alone app using java swing.</p>
+                                <p class="text-muted">Am well informed in OOP, and I can comfortably create a stand-alone app using java swing.</p>
                                 Java
                                     <div class="progress">
                                     <div class="progress-bar bg-warning" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
@@ -74,7 +74,7 @@ export class Skills extends Component {
                             <div class="col-lg-3 col-md-6 ">
                                 <div class="icon mb-3 mt-5"><i class="fas fa-database fa-5x"></i></div>
                                 <h4 class="text-uppercase">Database</h4>
-                                <p class="text-mted">I have previously worked with both relational and non-relational database management systems.</p>
+                                <p class="text-muted">I have previously worked with both relational and non-relational database management systems.</p>
                                 PostgreSQL
                                     <div class="progress">
                                     <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
@@ -96,7 +96,7 @@ export class Skills extends Component {
                             <div class="col-lg-3 col-md-6">
                                 <div class="icon mb-3 mt-5"><i class="fab fa-aws fa-5x"></i></div>
                                 <h4 class="text-uppercase">DevOps</h4>
-                                <p class="text-mted">I have some substantial knowledge in server management, web hosting and maintenance.</p>
+                                <p class="text-muted">I have some substantial knowledge in server management, web hosting and maintenance.</p>
                                 AWS
                                     <div class="progress">
                                     <div class="progress-bar bg-warning" role="progressbar" style={{ width: "70%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
@@ -111,7 +111,7 @@ export class Skills extends Component {
                             <div class="col-lg-3 col-md-6 ">
                                 <div class="icon mb-3 mt-5"><i class="fab fa-bootstrap fa-5x"></i></div>
                                 <h4 class="text-uppercase lined lined-compact">UI &amp; UX</h4>
-                                <p class="text-mted">I have a lot of experience in developing user-friendly UIs, using common templating engines.</p>
+                                <p class="text-muted">I have a lot of experience in developing user-friendly UIs, using common templating engines.</p>
                                 HTML
                                     <div class="progress">
                                     <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
@@ -136,7 +136,7 @@ export class Skills extends Component {
                             <div class="col-lg-3 col-md-6 ">
                                 <div class="icon mb-3 mt-5"><i class="fas fa-users-cog fa-5x"></i></div>
                                 <h4 class="text-uppercase lined lined-compact">Collaboration</h4>
-                                <p class="text-mted">Using collaboration tools suc as github, am able to work
+                                <p class="text-muted">Using collaboration tools suc as github, am able to work
                                  in a team amicably and develop a product under the agile methodology.</p>
 
                                 Team work
@@ -160,7 +160,7 @@ export class Skills extends Component {
                             <div class="col-lg-3 col-md-6 ">
                                 <div class="icon mb-3 mt-5"><i class="fas fa-cube fa-5x"></i></div>
                                 <h4 class="text-uppercase lined lined-compact">Testing, Linting & Debugging</h4>
-                                <p class="text-mted">I write clean, linted and well tested code. I ensure
+                                <p class="text-muted">I write clean, linted and well tested code. I ensure
                                  I have a good maintenability rate, and a high test coverage.</p>
                                  Test Coverage
                                     <div class="progress">

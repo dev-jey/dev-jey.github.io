@@ -21,7 +21,8 @@ export class Contact extends Component {
                                 <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark"><i class="fab fa-github fa-2x p-1"></i></a>
 
                                 <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x p-1"></i></a>
-                            </div>
+                                <a href="https://stackoverflow.com/users/10687724/jey-savali/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow fa-2x p-1" style={{color:'orange'}}></i></a>
+                                 </div>
                             <div className="text-left text-muted col-md-4 mt-5">
                                 <i>"The harder you work for something, the greater you'll feel when you achieve it."<br></br>
                                 -- Anonymous</i>
