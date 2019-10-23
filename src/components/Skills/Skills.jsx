@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './Skills.css';
 
 export class Skills extends Component {
     render() {
@@ -16,24 +17,24 @@ export class Skills extends Component {
                                 <h4 class="text-uppercase">Python</h4>
                                 <p class="text-muted">I am proficient in python web frameworks, data analysis and general algorithms.</p>
                                 Django
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 Flask
-                                    <div class="progress">
-                                    <div class="progress-bar bg-info" role="progressbar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                        95%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 Data Science
-                                    <div class="progress">
+                                    <div class="progress skill-bars">
                                     <div class="progress-bar bg-warning" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                        90%</div>
+                                        </div>
                                 </div>
                                 Data Scraping/mining
-                                    <div class="progress">
+                                    <div class="progress skill-bars">
                                     <div class="progress-bar bg-warning" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                        90%</div>
+                                        </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 ">
@@ -41,24 +42,24 @@ export class Skills extends Component {
                                 <h4 class="text-uppercase">Javascript</h4>
                                 <p class="text-muted">Am a PEAN full stack js developer. I have experience in both front and backend development.</p>
                                 Node-Express
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 React
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 Angular
-                                    <div class="progress">
-                                    <div class="progress-bar bg-primary" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                        98%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 Jquery and Vanilla Js
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "96%" }} aria-valuenow="96" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 ">
@@ -66,9 +67,9 @@ export class Skills extends Component {
                                 <h4 class="text-uppercase">Java</h4>
                                 <p class="text-muted">Am well informed in OOP, and I can comfortably create a stand-alone app using java swing.</p>
                                 Java
-                                    <div class="progress">
+                                    <div class="progress skill-bars">
                                     <div class="progress-bar bg-warning" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                        90%</div>
+                                        </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 ">
@@ -76,19 +77,19 @@ export class Skills extends Component {
                                 <h4 class="text-uppercase">Database</h4>
                                 <p class="text-muted">I have worked with both relational and non-relational database management systems.</p>
                                 PostgreSQL
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "97%" }} aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 MySQL & SQLite
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 MongoDB
-                                    <div class="progress">
+                                    <div class="progress skill-bars">
                                     <div class="progress-bar bg-warning" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                        90%</div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -98,14 +99,14 @@ export class Skills extends Component {
                                 <h4 class="text-uppercase">DevOps</h4>
                                 <p class="text-muted">I have some substantial knowledge in server management, web hosting and maintenance.</p>
                                 AWS
-                                    <div class="progress">
+                                    <div class="progress skill-bars">
                                     <div class="progress-bar bg-warning" role="progressbar" style={{ width: "70%" }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                        70%</div>
+                                        </div>
                                 </div>
                                 GCP
-                                    <div class="progress">
+                                    <div class="progress skill-bars">
                                     <div class="progress-bar bg-warning" role="progressbar" style={{ width: "70%" }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                        70%</div>
+                                        </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 ">
@@ -113,24 +114,24 @@ export class Skills extends Component {
                                 <h4 class="text-uppercase lined lined-compact">UI &amp; UX</h4>
                                 <p class="text-muted">I have a lot of experience in developing user-friendly UIs, and using common templating engines.</p>
                                 HTML
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "98%" }} aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 CSS & SASS
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "97%" }} aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 Templating engines
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "98%" }} aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 CSS frameworks(Bootstrap, Material & Semantic UI)
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "98%" }} aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 ">
@@ -140,21 +141,21 @@ export class Skills extends Component {
                                  in a team amicably and develop a product under the agile methodology.</p>
 
                                 Team work
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "97%" }} aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
 
                                 CI/CD(Continous Integration/ Deployment)
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "98%" }} aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
 
                                 Communication
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "96%" }} aria-valuenow="96" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 ">
@@ -163,19 +164,19 @@ export class Skills extends Component {
                                 <p class="text-muted">I write clean, linted and well tested code. I ensure
                                  I have a good maintenability rate, and a high test coverage.</p>
                                  Test Coverage
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 Linting
-                                    <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                        100%</div>
+                                    <div class="progress skill-bars">
+                                    <div class="progress-bar bg-warning" role="progressbar" style={{ width: "94%" }} aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
                                 </div>
                                 Bug fixing
-                                    <div class="progress">
+                                    <div class="progress skill-bars">
                                     <div class="progress-bar bg-warning" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                        90%</div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
