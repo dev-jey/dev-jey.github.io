@@ -17,7 +17,7 @@ export class About extends Component {
                 <br></br><br></br>
                 <div className="row">
                     <div className="card about-info col-md-6">
-                        <div className="row"><h2 className="title col-md-4">Resume</h2>
+                        <div className="row"><h2 className="title col-md-4">Details</h2>
                         <button className="btn btn-warning col-md-4 d-block ml-auto mt-3" onClick={this.exportPDFWithComponent}>Download Resume</button>
                         </div>
                         <hr className="normal-hr"></hr>
