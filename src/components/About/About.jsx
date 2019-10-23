@@ -25,7 +25,7 @@ export class About extends Component {
                         <PDFExport paperSize={'A4'}
                             margin="1.5cm"
                             forcePageBreak=".page-break"
-                            scale={0.8}
+                            scale={0.7}
                             fileName="james_savali_resume.pdf"
                             title=""
                             subject=""

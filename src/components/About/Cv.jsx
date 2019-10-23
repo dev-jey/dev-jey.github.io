@@ -17,6 +17,8 @@ class Cv extends React.Component{
             <br></br>
             Languages: English, Kiswahili
             <br></br>
+            Nationality: Kenyan
+            <br></br>
             <div className="col-md-4 text-center mt-2 mx-auto">
             <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark">
                 <img width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZDQ1nLIpshq9ubfuv20tS28rc3i-rxyJMod0A_V-_5caaB34N" alt=""/></a>
@@ -35,10 +37,10 @@ class Cv extends React.Component{
         <div className="text-left text-sm">
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
-            I am a passionate software developer with over 2 years experience in the
-            field. My main stack is Python (Flask/Django) but I also have experience with
-            React-Redux. I am proficient in PostgreSQL, SQL, HTML, CSS. I have experience working with a team using an agile methodology to
-            develop the applications
+            I am a passionate software developer with over 1 year of experience in the
+            field. My main stack is Javascript (PEAN) but I also have experience with
+            python(django and flask). Throughout my time as a software developer, I have worked with different teams to create 
+            systems that optimized our operations, saved on cost and improved other users' experience.
             </p>
         </div>
         <hr></hr>
@@ -50,14 +52,14 @@ class Cv extends React.Component{
                     <hr className="normal-hr-2"></hr>
                     <ul className="pl-4">
                         <li>Good communication skills</li>
-                        <li>Team collaboration</li>
-                        <li>Action on feedback</li>
+                        <li>Effective team player and leader</li>
+                        <li>Prompt action on feedback & attention to detail</li>
                     </ul>
                     Other Skills
                     <hr className="normal-hr-2"></hr>
                     <ul className="pl-4">
                         <li>DevOps(aws & GCP) & CI/CD</li>
-                        <li>Patterns (MVC). Rest APIs and GraphQL.</li>
+                        <li>Patterns (MVC), Rest APIs and GraphQL.</li>
                         <li>Testing & linting</li>
                         <li>UI/UX design with Invision</li>
                     </ul>
@@ -107,28 +109,38 @@ class Cv extends React.Component{
                 </div>
             </div>
 
-        <hr></hr>
         <div  className="text-left text-sm page-break">
+        <hr></hr>
             <h6><b>Work Experience</b></h6>
             Software Engineer at Andela, Nairobi<br></br>
             <label className="text-muted">January, 2019 - September, 2019</label><br></br>
             <i className="p-2" style={{fontSize:"11px"}}>January, 2019 - April, 2019</i>
             <p className="pl-2 text-mute">
-            I was part of a team that worked on a product called Authors Haven. This is
-            a social platform that allowed authors to create articles as well as reading
-            them. The stacks used are; Python Django for the back-end and React-Redux
+            I was part of a team that worked on a product called <a href="https://indiana-ah-frontend.herokuapp.com/" 
+            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
+            >Authors Haven</a> 
+            . This is a social platform that allows writers/article authors to express themselves
+            and be sure to reach out to their target audience.
+            The stacks used are; Python Django(DRF) for the back-end and React-Redux
             for the front-end.
             </p>
             <hr className="normal-hr-2"></hr>
             <i className="p-2" style={{fontSize:"11px"}}>May, 2019 - Sep, 2019</i>
             <p className="pl-2 text-mute">
-            I was part of a team that worked on a product called Authors Haven. This is
-            a social platform that allowed authors to create articles as well as reading
-            them. The stacks used are; Python Django for the back-end and React-Redux
-            for the front-end.<br></br>
+            I was also part of a full-stack development team that worked on a product called 
+            <a href="https://tembea.andela.com/" 
+            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
+            > Tembea.</a> 
+            This project was aimed at managing andela's travel and transfers.<br></br>
             Achievements:<br></br>
             <ul className="pl-4">
-                <li>Reduced the amount of money spend by the company on transport by more than 10%</li>
+                <li>The backend, developed in nodeJS, is a slack application. It is aimed at ensuring employees
+                    are able to get cab services, airport transfers and other travel functions with ease. It has
+                    reduced the amount of money spend by the company on transport by more than 10%</li>
+                <li>The frontend, made in Angular 7, is an admin portal aimed at enabling the 
+                    operations department of the company to easily manage trips. 
+                    It reduced the hustle of data reconciliation from
+                    different sources, and eliminated inacurracy in travel funds management</li>
             </ul>
             </p>
             
@@ -145,7 +157,7 @@ class Cv extends React.Component{
             <br></br>
             <label className="text-muted">September, 2015 - Present</label>
             <p className="pl-2 text-mute">
-            This course helped to build my understanding of a wide range of software, technical and technological ICT skills required by the industry
+            This course has helped to build my understanding of a wide range of software, and technological ICT skills required by the industry
             </p>
         </div>
 

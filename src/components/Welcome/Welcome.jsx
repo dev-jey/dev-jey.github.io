@@ -28,10 +28,10 @@ export class Welcome extends Component {
                                 <i class="far fa-envelope fa-sm"></i>&nbsp;Email: savalijey@gmail.com
                             </div>
                         <div className="col-md-4 text-center mt-2 mx-auto">
-                                <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark"><i class="fab fa-github-square fa-4x p-2" style={{color: 'grey'}}></i></a>
+                                <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark"><i class="fab fa-github-square fa-4x p-2" style={{color: 'silver'}}></i></a>
 
-                                <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-4x p-2" style={{color: 'grey'}}></i></a>
-                                <a href="https://stackoverflow.com/users/10687724/jey-savali/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow fa-4x p-2"  style={{color: 'grey'}}></i></a>
+                                <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-4x p-2"></i></a>
+                                <a href="https://stackoverflow.com/users/10687724/jey-savali/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow fa-4x p-2"  style={{color: 'orange'}}></i></a>
                                 
                             </div>
                 </div>
