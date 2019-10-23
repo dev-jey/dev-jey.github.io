@@ -20,16 +20,103 @@ export class Pastwork extends Component {
                         </li>
                     </ul>
                     <div id="myTab2Content" class="tab-content">
-                        <div id="home2" role="tabpanel" aria-labelledby="home-tab" class="tab-pane fade px-4 py-5 show active">
+                        <div id="home2" role="tabpanel" aria-labelledby="home-tab" class="tab-pane fade py-5 show active">
                             <div class="row">
                                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                                    <div class="bg-white rounded shadow-sm"><img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1570829057/storo/Screen_Shot_2019-10-12_at_00.23.14.png" alt="" class="img-fluid card-img-top" />
+                                    <div class="bg-white rounded shadow-sm">
+                                        <a href="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571831029/c3Rvcm8vZmFkaGlsYQ==/drilldown">
+                                        <img src="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571831029/c3Rvcm8vZmFkaGlsYQ==/drilldown" alt="" class="img-fluid card-img-top" />
+                                        </a>
                                         <div class="p-4">
-                                            <h5> <a href="http://www.fadhilanetwork.com" target="_blank" rel="noopener noreferrer" class="text-dark">Fadhila Network</a></h5>
+                                            <h5> <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer" class="text-dark">Fadhila Network</a></h5>
+                                            <p class="small"> A charity organization aimed at modernizing and improving how people help one another.</p>
                                             <p class="small text-muted mb-0">Key aspects</p>
+                                            <ul class="small text-muted ml-3">
+                                                <li>React, React apollo, apollo client</li>
+                                                <li>Cloudinary, Bootstrap, Google places</li>
+                                                <li>Postgres, Redis, Celery</li>
+                                                <li>Django, API, graphene, graphql</li>
+                                                <li>GCP compute engine</li>
+                                                <li>Seperate admin portal</li>
+                                            </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                                                <p class="small mb-0"><i class="fab fa-python mr-2"></i><i class="fab fa-js mr-2"></i> <span class="font-weight-bold">Fadhila</span></p>
-                                                <a href="http://www.fadhilanetwork.com" target="_blank" rel="noopener noreferrer" class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                                <p class="small mb-0"><i class="fab fa-python mr-2"></i><i class="fab fa-react mr-2"></i> <span class="font-weight-bold">
+                                                <a href="https://github.com/dev-jey/fadhila/">Github Repo</a>
+                                                    </span></p>
+                                                <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer" class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                                    <div class="bg-white rounded shadow-sm"><a href="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830929/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTItMzUtNDI=/drilldown">
+                                        <img src="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830929/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTItMzUtNDI=/drilldown" alt="" class="img-fluid card-img-top" /></a>
+                                        <div class="p-4">
+                                            <h5> <a href="https://tembea.andela.com/" target="_blank" rel="noopener noreferrer" class="text-dark">Tembea</a></h5>
+                                            <p class="small"> An application aimed at managing cabs and other travel needs at Andela.</p>
+                                            <p class="small text-muted mb-0">Key aspects</p>
+                                            <ul class="small text-muted ml-3">
+                                                <li>Angular, angular-material</li>
+                                                <li>Slack API</li>
+                                                <li>External API integration</li>
+                                                <li>Circle CI</li>
+                                                <li>Rest API in express framework</li>
+                                                <li>Node js, Redis, Postgres</li>
+                                            </ul>
+                                            <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                                                <p class="small mb-0"><i class="fab fa-angular mr-2"></i><i class="fab fa-node mr-2"></i><span class="font-weight-bold">
+                                                <a href="https://github.com/andela/tembea/">Private Repo</a>
+                                                    </span></p>
+                                                <a href="https://tembea.andela.com/" target="_blank" rel="noopener noreferrer" class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                                    <div class="bg-white rounded shadow-sm"><a href="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830796/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTMtMTQtMDc=/drilldown">
+                                        <img src="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830796/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTMtMTQtMDc=/drilldown" alt="" class="img-fluid card-img-top" /></a>
+                                        <div class="p-4">
+                                            <h5> <a href="https://indiana-ah-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="text-dark">Authors Haven</a></h5>
+                                            <p class="small"> A platform whereby authors and article writers are able to express themselves freely and reach out to their target audience.</p>
+                                            <p class="small text-muted mb-0">Key aspects</p>
+                                            <ul class="small text-muted ml-3">
+                                                <li>React, Redux</li>
+                                                <li>Cloudinary, Semantic UI, Google places</li>
+                                                <li>Postgres, Django, DRF</li>
+                                                <li>PT, slack and github team collaboration</li>
+                                                <li>CI/CD on travis & heroku</li>
+                                            </ul>
+                                            <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                                                <p class="small mb-0"><i class="fab fa-node mr-2"></i><i class="fab fa-react mr-2"></i> <span class="font-weight-bold">
+                                                    <a href="https://github.com/andela/ah-the-phoenix/">Github Repo</a>
+                                                    </span></p>
+                                                <a href="https://indiana-ah-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                                    <div class="bg-white rounded shadow-sm"><a href="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830670/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTQtMDAtMTM=/drilldown">
+                                        <img src="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830670/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTQtMDAtMTM=/drilldown" alt="" class="img-fluid card-img-top" /></a>
+                                        <div class="p-4">
+                                            <h5> <a href="https://heysasa.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="text-dark">HeySasa</a></h5>
+                                            <p class="small"> A platform whereby classmates can share relevant information concerning their classes and notes.</p>
+                                            <p class="small text-muted mb-0">Key aspects</p>
+                                            <ul class="small text-muted ml-3">
+                                                <li>Angular 7</li>
+                                                <li>Cloudinary, Angular material</li>
+                                                <li>MongoDB migrated to Postgres</li>
+                                                <li>NodeJS, express, restful API</li>
+                                                <li>WebSockets using socket.io</li>
+                                            </ul>
+                                            <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                                                <p class="small mb-0"><i class="fab fa-node mr-2"></i><i class="fab fa-angular mr-2"></i> <span class="font-weight-bold">
+                                                    <a href="https://github.com/dev-jey/heysasa/">Github Repo</a>
+                                                    </span></p>
+                                                <a href="https://heysasa.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -52,7 +139,10 @@ export class Pastwork extends Component {
                                     </div>
                                 </div> */}
                             {/* </div> */}
-
+                            <p className="text-center">Check out more projects on my github account:
+                            <br></br>
+                            <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark text-center mx-auto"><i class="fab fa-github-square fa-4x p-2 text-center"></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>
