@@ -37,7 +37,7 @@ class Cv extends React.Component{
         <div className="text-left text-sm">
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
-            I am a passionate software developer with over 1 year of experience in the
+            I am a passionate software developer with over 2 year of experience in the
             field. My main stack is Javascript (PEAN) but I also have experience with
             python(django and flask). Throughout my time as a software developer, I have worked with different teams to create 
             systems that optimized our operations, saved on cost and improved other users' experience.
@@ -132,15 +132,23 @@ class Cv extends React.Component{
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
             > Tembea.</a> 
             This project was aimed at managing andela's travel and transfers.<br></br>
+            Stacks: Angular, NodeJS <br></br>
             Achievements:<br></br>
             <ul className="pl-4">
-                <li>The backend, developed in nodeJS, is a slack application. It is aimed at ensuring employees
-                    are able to get cab services, airport transfers and other travel functions with ease. It has
-                    reduced the amount of money spend by the company on transport by more than 10%</li>
-                <li>The frontend, made in Angular 7, is an admin portal aimed at enabling the 
-                    operations department of the company to easily manage trips. 
-                    It reduced the hustle of data reconciliation from
-                    different sources, and eliminated inacurracy in travel funds management</li>
+                <li>
+                    The product ensures that employees
+                    are able to get cab services, airport transfers and other travel functions with ease.
+                    
+                    It also has
+                    reduced the amount of money spend by the company on transport by more than 10%.
+                    </li>
+                <li>I was an active member of the team contributing to the codebase for a period of 3 months. 
+                    During this period, Tembea managed to increase the efficiency of local travel activites 
+                    in the company by 15%. 
+                </li>
+                <li>I was also a Technical coordinator for the team for a period of a month. The team output
+                    during this period increased by 8%.
+                </li>
             </ul>
             </p>
             
