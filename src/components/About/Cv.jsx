@@ -3,7 +3,13 @@ import React from 'react';
 class Cv extends React.Component{
     render(){
         return <div className="p-4">
-        <div className="text-center">James Savali, <label className="text-muted"> Software Engineer</label>
+             <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1570647972/__254_708_197333__20190127_223752.jpg"
+                            width="100"
+                            height="100"
+                            className="rounded mx-auto d-block img-responsive"
+                            alt="" />
+                            <br></br><br></br>
+        <div className="text-center">James Savali,<label className="text-muted">&nbsp;&nbsp;Software Engineer</label>
             <br></br>
             Email: savalijey@gmail.com
             <br></br>
@@ -12,16 +18,22 @@ class Cv extends React.Component{
             Languages: English, Kiswahili
             <br></br>
             <div className="col-md-4 text-center mt-2 mx-auto">
-            <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark"><i class="fab fa-github fa-2x p-1"></i></a>
-            <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x p-1"></i></a>
-            <a href="https://stackoverflow.com/users/10687724/jey-savali/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow fa-2x p-1"  style={{color:'orange'}}></i></a>   
+            <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark">
+                <img width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZDQ1nLIpshq9ubfuv20tS28rc3i-rxyJMod0A_V-_5caaB34N" alt=""/></a>
+            <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer">
+            <img width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfrhZWlM-4YJTffhpEWnZQI1cfU8JUI4OnE9JwMPuKexfzuT4v" alt=""/>
+                </a>
+            <a href="https://stackoverflow.com/users/10687724/jey-savali/"  target="_blank" rel="noopener noreferrer">
+                
+            <img width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTgKY90PcGBlcFiOt_7vgJI7kphQgEGGW05vmQW1w50ofZI1J1q" alt=""/>
+                </a>   
             </div>
         </div>
 
         <hr></hr>
 
         <div className="text-left text-sm">
-            <h6><i class="fas fa-user fa-sm"></i>&nbsp;Profile</h6>
+            <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
             I am a passionate software developer with over 2 years experience in the
             field. My main stack is Python (Flask/Django) but I also have experience with
@@ -32,7 +44,7 @@ class Cv extends React.Component{
         <hr></hr>
 
         <div className="text-left text-sm">
-            <h6><i class="fas fa-tools fa-sm"></i>&nbsp;Skills</h6>
+            <h6><b>Skills</b></h6>
             <div className="container-fluid row">
                 <div className="col-6 p-1">Personal Attributes
                     <hr className="normal-hr-2"></hr>
@@ -82,6 +94,11 @@ class Cv extends React.Component{
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
+                    Java
+                    <div class="progress" style={{height: "6px" }}>
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "70%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="70">
+                        </div>
+                    </div>
                     PostgreSQL, MySQL, MongoDB
                     <div class="progress" style={{height: "6px" }}>
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
@@ -91,8 +108,8 @@ class Cv extends React.Component{
             </div>
 
         <hr></hr>
-        <div  className="text-left text-sm">
-            <h6><i class="fas fa-briefcase fa-sm"></i>&nbsp;Work Experience</h6>
+        <div  className="text-left text-sm page-break">
+            <h6><b>Work Experience</b></h6>
             Software Engineer at Andela, Nairobi<br></br>
             <label className="text-muted">January, 2019 - September, 2019</label><br></br>
             <i className="p-2" style={{fontSize:"11px"}}>January, 2019 - April, 2019</i>
@@ -123,7 +140,7 @@ class Cv extends React.Component{
         
     <hr></hr>
     <div  className="text-left text-sm">
-            <h6><i class="fas fa-book-reader fa-sm"></i>&nbsp;Education</h6>
+            <h6><b>Education</b></h6>
             Bachelor of Science in Computer Science, Multimedia University of Kenya, Nairobi
             <br></br>
             <label className="text-muted">September, 2015 - Present</label>
@@ -134,7 +151,7 @@ class Cv extends React.Component{
 
     <hr></hr>
     <div  className="text-left text-sm">
-            <h6><i class="fas fa-swimmer fa-sm"></i>&nbsp;Hobbies</h6>
+            <h6><b>Hobbies</b></h6>
             <p className="pl-2 text-mute">
                 Skating, Swimming, Reading Novels
             </p>
@@ -142,7 +159,7 @@ class Cv extends React.Component{
 
     <hr></hr>
     <div  className="text-left text-sm">
-            <h6><i class="fas fa-user-friends fa-sm"></i>&nbsp;References</h6>
+            <h6><b>References</b></h6>
             <div className="container row">
                 <div className="col-6 text-mute">
                 Dr. Kiiru Dishon<br></br>

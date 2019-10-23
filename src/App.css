@@ -36,11 +36,11 @@ html {
   color: rgb(58, 58, 58)
 }
 .normal-hr-2{
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-bottom: 1%;
-  border-radius: 5px;
-  background: rgb(255, 223, 163);
+  border-radius: 1px;
+  background: rgb(255, 255, 255);
 }
 .title {
   color: #fff;

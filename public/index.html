@@ -26,6 +26,13 @@
     <script>
       new WOW().init();
       </script>
+      <script>
+        // The font file location must be set explicitly if it's not hosted in the same domain
+        kendo.pdf.defineFont({
+          "FontAwesome":
+          "https://kit.fontawesome.com/64d03bb14b.js"
+        });
+      </script>
 </body>
 
 </html>

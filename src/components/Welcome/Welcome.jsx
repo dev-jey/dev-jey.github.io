@@ -5,7 +5,7 @@ export class Welcome extends Component {
     render() {
         return (
             <section className="intro text-center" id="title-section">
-                <div className="title-text wow slideIn col-sm-10 col-sm-12 col-lg-12">
+                <div className="title-text col-sm-10 col-sm-12 col-lg-12">
                     <div>
                         <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1570647972/__254_708_197333__20190127_223752.jpg"
                             width="200"
@@ -28,10 +28,10 @@ export class Welcome extends Component {
                                 <i class="far fa-envelope fa-sm"></i>&nbsp;Email: savalijey@gmail.com
                             </div>
                         <div className="col-md-4 text-center mt-2 mx-auto">
-                                <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark"><i class="fab fa-github fa-2x p-1"></i></a>
+                                <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark"><i class="fab fa-github-square fa-4x p-2" style={{color: 'grey'}}></i></a>
 
-                                <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x p-1"></i></a>
-                                <a href="https://stackoverflow.com/users/10687724/jey-savali/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow fa-2x p-1"  style={{color:'orange'}}></i></a>
+                                <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-4x p-2" style={{color: 'grey'}}></i></a>
+                                <a href="https://stackoverflow.com/users/10687724/jey-savali/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow fa-4x p-2"  style={{color: 'grey'}}></i></a>
                                 
                             </div>
                 </div>
