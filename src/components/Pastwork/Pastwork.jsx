@@ -24,8 +24,8 @@ export class Pastwork extends Component {
                             <div class="row">
                                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
                                     <div class="bg-white rounded shadow-sm">
-                                        <a href="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571831029/c3Rvcm8vZmFkaGlsYQ==/drilldown">
-                                        <img src="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571831029/c3Rvcm8vZmFkaGlsYQ==/drilldown" alt="" class="img-fluid card-img-top" />
+                                        <a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825350/storo/fadhila.png">
+                                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825350/storo/fadhila.png" alt="" class="img-fluid card-img-top" />
                                         </a>
                                         <div class="p-4">
                                             <h5> <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer" class="text-dark">Fadhila Network</a></h5>
@@ -50,8 +50,8 @@ export class Pastwork extends Component {
                                 </div>
 
                                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                                    <div class="bg-white rounded shadow-sm"><a href="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830929/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTItMzUtNDI=/drilldown">
-                                        <img src="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830929/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTItMzUtNDI=/drilldown" alt="" class="img-fluid card-img-top" /></a>
+                                    <div class="bg-white rounded shadow-sm"><a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825351/storo/Screenshot_from_2019-10-23_12-35-42.png">
+                                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825351/storo/Screenshot_from_2019-10-23_12-35-42.png" alt="" class="img-fluid card-img-top" /></a>
                                         <div class="p-4">
                                             <h5> <a href="https://tembea.andela.com/" target="_blank" rel="noopener noreferrer" class="text-dark">Tembea</a></h5>
                                             <p class="small"> An application aimed at managing cabs and other travel needs at Andela.</p>
@@ -75,8 +75,8 @@ export class Pastwork extends Component {
                                 </div>
 
                                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                                    <div class="bg-white rounded shadow-sm"><a href="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830796/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTMtMTQtMDc=/drilldown">
-                                        <img src="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830796/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTMtMTQtMDc=/drilldown" alt="" class="img-fluid card-img-top" /></a>
+                                    <div class="bg-white rounded shadow-sm"><a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825672/storo/Screenshot_from_2019-10-23_13-14-07.png">
+                                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825672/storo/Screenshot_from_2019-10-23_13-14-07.png" alt="" class="img-fluid card-img-top" /></a>
                                         <div class="p-4">
                                             <h5> <a href="https://indiana-ah-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="text-dark">Authors Haven</a></h5>
                                             <p class="small"> A platform whereby authors and article writers are able to express themselves freely and reach out to their target audience.</p>
@@ -99,8 +99,8 @@ export class Pastwork extends Component {
                                 </div>
 
                                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                                    <div class="bg-white rounded shadow-sm"><a href="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830670/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTQtMDAtMTM=/drilldown">
-                                        <img src="https://res-console.cloudinary.com/dw675k0f5/thumbnails/transform/v1/image/upload//v1571830670/c3Rvcm8vU2NyZWVuc2hvdF9mcm9tXzIwMTktMTAtMjNfMTQtMDAtMTM=/drilldown" alt="" class="img-fluid card-img-top" /></a>
+                                    <div class="bg-white rounded shadow-sm"><a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571828484/storo/Screenshot_from_2019-10-23_14-00-13.png">
+                                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571828484/storo/Screenshot_from_2019-10-23_14-00-13.png" alt="" class="img-fluid card-img-top" /></a>
                                         <div class="p-4">
                                             <h5> <a href="https://heysasa.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="text-dark">HeySasa</a></h5>
                                             <p class="small"> A platform whereby classmates can share relevant information concerning their classes and notes.</p>
