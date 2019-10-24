@@ -7,7 +7,7 @@ export class Welcome extends Component {
             <section className="intro text-center" id="title-section">
                 <div className="title-text col-sm-10 col-sm-12 col-lg-12">
                     <div>
-                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1570647972/__254_708_197333__20190127_223752.jpg"
+                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571944755/DSC_0448.jpg"
                             width="200"
                             height="200"
                             className="rounded-circle mx-auto d-block img-responsive"
