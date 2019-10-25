@@ -4,8 +4,8 @@ class Cv extends React.Component{
     render(){
         return <div className="p-4">
              <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571943229/storo/DSC_0443.jpg"
-                            width="100"
-                            height="100"
+                            width="150"
+                            height="150"
                             className="rounded mx-auto d-block img-responsive"
                             alt="" />
                             <br></br><br></br>
@@ -19,7 +19,10 @@ class Cv extends React.Component{
             <br></br>
             Nationality: Kenyan
             <br></br>
-            <div className="col-md-4 text-center mt-2 mx-auto">
+            <div className="col-md-6 text-center mt-2 mx-auto">
+            
+            <a href="https://dev-jey.github.io/"  target="_blank" rel="noopener noreferrer" className="text-dark">
+                <img width="33" src="https://res.cloudinary.com/dw675k0f5/image/upload/e_simulate_colorblind/v1572026291/storo/142-1423933_briefcase-circle-hd-png-download.jpg" alt=""/></a>
             <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark">
                 <img width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZDQ1nLIpshq9ubfuv20tS28rc3i-rxyJMod0A_V-_5caaB34N" alt=""/></a>
             <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer">
@@ -40,7 +43,8 @@ class Cv extends React.Component{
             I am a passionate software developer with over 2 year of experience in the
             field. My main stack is Javascript (PEAN) but I also have experience with
             python(django and flask). Throughout my time as a software developer, I have worked with different teams to create 
-            systems that optimized our operations, saved on cost and improved other users' experience.
+            applications that optimized systems, saved on cost and improved other users' experience.  
+            
             </p>
         </div>
         <hr></hr>
@@ -144,10 +148,10 @@ class Cv extends React.Component{
                     </li>
                 <li>I was an active member of the team contributing to the codebase for a period of 3 months. 
                     During this period, Tembea managed to increase the efficiency of local travel activites 
-                    in the company by 15%. 
+                    in the company. 
                 </li>
                 <li>I was also a Technical coordinator for the team for a period of a month. The team output
-                    during this period increased by 8%.
+                    during this period increased by a large margin.
                 </li>
             </ul>
             </p>
