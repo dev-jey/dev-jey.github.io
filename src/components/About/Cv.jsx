@@ -40,9 +40,9 @@ class Cv extends React.Component{
         <div className="text-left text-sm">
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
-            I am a passionate software developer with over 2 year of experience in the
-            field. My main stack is Javascript (PEAN) but I also have experience with
-            python(django and flask). Throughout my time as a software developer, I have worked with different teams to create 
+            I am a passionate software developer with over 2 years of experience in the
+            field. My main stack is Javascript (PEAN) and I also have experience with
+            Python(Django and flask). Throughout my time as a software developer, I have worked with different teams to create 
             applications that optimized systems, saved on cost and improved other users' experience.  
             
             </p>
