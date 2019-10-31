@@ -1,3 +1,5 @@
+
+import ReactGA from 'react-ga';
 import React, { Component } from 'react'
 
 export class Contact extends Component {
@@ -18,10 +20,19 @@ export class Contact extends Component {
                                 <i class="far fa-envelope fa-sm"></i>&nbsp;Email: savalijey@gmail.com
                             </div>
                             <div className="col-md-4 text-md-center mt-5">
-                                <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark"><i class="fab fa-github fa-2x p-1"></i></a>
+                                <a href="https://github.com/dev-jey"  onClick={()=>ReactGA.event({
+                                                                        category: 'Viewing',
+                                                                        action: 'Github Profile on footer' })}
+                                target="_blank" rel="noopener noreferrer" className="text-dark"><i class="fab fa-github fa-2x p-1"></i></a>
 
-                                <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x p-1"></i></a>
-                                <a href="https://stackoverflow.com/users/10687724/jey-savali/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow fa-2x p-1" style={{color:'orange'}}></i></a>
+                                <a href="https://www.linkedin.com/in/devjey/" onClick={()=>ReactGA.event({
+                                                                        category: 'Viewing',
+                                                                        action: 'LinkedIn Profile on footer' })}
+                                 target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x p-1"></i></a>
+                                <a href="https://stackoverflow.com/users/10687724/jey-savali/" onClick={()=>ReactGA.event({
+                                                                        category: 'Viewing',
+                                                                        action: 'StackOverflow Profile on footer' })}
+                                 target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow fa-2x p-1" style={{color:'orange'}}></i></a>
                                  </div>
                             <div className="text-left text-muted col-md-4 mt-5">
                                 <i>"The harder you work for something, the greater you'll feel when you achieve it."<br></br>

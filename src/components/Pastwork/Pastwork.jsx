@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Pastwork.css';
+import ReactGA from 'react-ga';
 
 export class Pastwork extends Component {
     render() {
@@ -28,7 +29,7 @@ export class Pastwork extends Component {
                                         <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825350/storo/fadhila.png" alt="" class="img-fluid card-img-top" />
                                         </a>
                                         <div class="p-4">
-                                            <h5> <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer" class="text-dark">Fadhila Network</a></h5>
+                                            <h5 class="text-dark">Fadhila Network</h5>
                                             <p class="small"> A charity organization aimed at modernizing and improving how people help one another.</p>
                                             <p class="small text-muted mb-0">Key aspects</p>
                                             <ul class="small text-muted ml-3">
@@ -41,9 +42,15 @@ export class Pastwork extends Component {
                                             </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
                                                 <p class="small mb-0"><i class="fab fa-python mr-2"></i><i class="fab fa-react mr-2"></i> <span class="font-weight-bold">
-                                                <a href="https://github.com/dev-jey/fadhila/">Github Repo</a>
+                                                <a href="https://github.com/dev-jey/fadhila/" onClick={()=>ReactGA.event({
+                                                                        category: 'Visit Repo',
+                                                                        action: 'Fadhila Repo' })}
+                                                >Github Repo</a>
                                                     </span></p>
-                                                <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer" class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                                <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer"  onClick={()=>ReactGA.event({
+                                                                        category: 'Visit Site',
+                                                                        action: 'Fadhila Site' })}
+                                                class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -53,7 +60,7 @@ export class Pastwork extends Component {
                                     <div class="bg-white rounded shadow-sm"><a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825351/storo/Screenshot_from_2019-10-23_12-35-42.png">
                                         <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825351/storo/Screenshot_from_2019-10-23_12-35-42.png" alt="" class="img-fluid card-img-top" /></a>
                                         <div class="p-4">
-                                            <h5> <a href="https://tembea.andela.com/" target="_blank" rel="noopener noreferrer" class="text-dark">Tembea</a></h5>
+                                            <h5 class="text-dark">Tembea</h5>
                                             <p class="small"> An application aimed at managing cabs and other travel needs at Andela.</p>
                                             <p class="small text-muted mb-0">Key aspects</p>
                                             <ul class="small text-muted ml-3">
@@ -66,9 +73,15 @@ export class Pastwork extends Component {
                                             </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
                                                 <p class="small mb-0"><i class="fab fa-angular mr-2"></i><i class="fab fa-node mr-2"></i><span class="font-weight-bold">
-                                                <a href="https://github.com/andela/tembea/">Private Repo</a>
+                                                <a href="https://github.com/andela/tembea/"  onClick={()=>ReactGA.event({
+                                                                        category: 'Visit Repo',
+                                                                        action: 'Tembea Repo' })}
+                                                >Private Repo</a>
                                                     </span></p>
-                                                <a href="https://tembea.andela.com/" target="_blank" rel="noopener noreferrer" class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                                <a href="https://tembea.andela.com/" target="_blank" rel="noopener noreferrer"  onClick={()=>ReactGA.event({
+                                                                        category: 'Visit Site',
+                                                                        action: 'Tembea Site' })}
+                                                class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -78,7 +91,7 @@ export class Pastwork extends Component {
                                     <div class="bg-white rounded shadow-sm"><a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825672/storo/Screenshot_from_2019-10-23_13-14-07.png">
                                         <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825672/storo/Screenshot_from_2019-10-23_13-14-07.png" alt="" class="img-fluid card-img-top" /></a>
                                         <div class="p-4">
-                                            <h5> <a href="https://indiana-ah-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="text-dark">Authors Haven</a></h5>
+                                            <h5 class="text-dark">Authors Haven</h5>
                                             <p class="small"> A platform whereby authors and article writers are able to express themselves freely and reach out to their target audience.</p>
                                             <p class="small text-muted mb-0">Key aspects</p>
                                             <ul class="small text-muted ml-3">
@@ -90,9 +103,15 @@ export class Pastwork extends Component {
                                             </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
                                                 <p class="small mb-0"><i class="fab fa-node mr-2"></i><i class="fab fa-react mr-2"></i> <span class="font-weight-bold">
-                                                    <a href="https://github.com/andela/ah-the-phoenix/">Github Repo</a>
+                                                    <a href="https://github.com/andela/ah-the-phoenix/"  onClick={()=>ReactGA.event({
+                                                                        category: 'Visit Repo',
+                                                                        action: 'Authors Haven Site' })}
+                                                    >Github Repo</a>
                                                     </span></p>
-                                                <a href="https://indiana-ah-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                                <a href="https://indiana-ah-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer"  onClick={()=>ReactGA.event({
+                                                                        category: 'Visit Site',
+                                                                        action: 'Authors Haven' })}
+                                                class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -102,7 +121,7 @@ export class Pastwork extends Component {
                                     <div class="bg-white rounded shadow-sm"><a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571828484/storo/Screenshot_from_2019-10-23_14-00-13.png">
                                         <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571828484/storo/Screenshot_from_2019-10-23_14-00-13.png" alt="" class="img-fluid card-img-top" /></a>
                                         <div class="p-4">
-                                            <h5> <a href="https://heysasa.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="text-dark">HeySasa</a></h5>
+                                            <h5 class="text-dark">HeySasa</h5>
                                             <p class="small"> A platform whereby classmates can share relevant information concerning their classes and notes.</p>
                                             <p class="small text-muted mb-0">Key aspects</p>
                                             <ul class="small text-muted ml-3">
@@ -114,9 +133,15 @@ export class Pastwork extends Component {
                                             </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
                                                 <p class="small mb-0"><i class="fab fa-node mr-2"></i><i class="fab fa-angular mr-2"></i> <span class="font-weight-bold">
-                                                    <a href="https://github.com/dev-jey/heysasa/">Github Repo</a>
+                                                    <a href="https://github.com/dev-jey/heysasa/"  onClick={()=>ReactGA.event({
+                                                                        category: 'Visit Repo',
+                                                                        action: 'Heysasa Repo' })}
+                                                    >Github Repo</a>
                                                     </span></p>
-                                                <a href="https://heysasa.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                                <a href="https://heysasa.herokuapp.com/" target="_blank" rel="noopener noreferrer"  onClick={()=>ReactGA.event({
+                                                                        category: 'Visit Site',
+                                                                        action: 'Fadhila Site' })}
+                                                class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
                                             </div>
                                         </div>
                                     </div>

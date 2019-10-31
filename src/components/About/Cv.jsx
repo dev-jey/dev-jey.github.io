@@ -167,7 +167,7 @@ class Cv extends React.Component{
             <h6><b>Education</b></h6>
             Bachelor of Science in Computer Science, Multimedia University of Kenya, Nairobi
             <br></br>
-            <label className="text-muted">September, 2015 - Present(Completion, April, 2020)</label>
+            <label className="text-muted">September, 2015 - Present(Completion: April, 2020)</label>
             <p className="pl-2 text-mute">
             This course has helped to build my understanding of a wide range of software, and technological ICT skills required by the industry
             </p>
