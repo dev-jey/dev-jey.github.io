@@ -192,10 +192,10 @@ class Cv extends React.Component{
                 +254722858508
                 </div>
                 <div className="col-6 text-mute">
-                Christine Ndinda Nzioka<br></br>
-                Business Woman,<br></br>
-                    P.O Box 40-90125 Kikima.<br></br>
-                +25490545499
+                Hesbon Maiyo<br></br>
+                Business Associate,<br></br>
+                hesbonkiptoo1996@gmail.com<br></br>
+                +254727737299
                 </div>
             </div>
     </div>
