@@ -12,8 +12,8 @@ const trackingId = "UA-151058430-1";
 ReactGA.initialize(trackingId, {gaOptions: {siteSpeedSampleRate: 100}});
 
 class App extends React.Component {
+  
   componentDidMount() {
-
     var TxtType = function (el, toRotate, period) {
       this.toRotate = toRotate;
       this.el = el;
@@ -71,12 +71,11 @@ class App extends React.Component {
       document.body.appendChild(css);
     };
   }
+  
   render() {
     return (
       <div className="App mx-auto">
-        {
-          ReactGA.pageview('/')
-        }
+         { ReactGA.pageview('/') }
         <Welcome />
         <br></br>
         <br></br>

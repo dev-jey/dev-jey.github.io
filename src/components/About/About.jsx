@@ -3,7 +3,18 @@ import Cv from './Cv';
 import { PDFExport } from '@progress/kendo-react-pdf';
 import ReactGA from 'react-ga';
 
+import Loader from '../Loader/Loader';
+
+
+function demoAsyncCall() {
+    return new Promise((resolve) => setTimeout(() => resolve(), 1500));
+  }
 export class About extends Component {
+
+    state = {
+        loading: true
+      };
+
     exportPDFWithComponent = () => {
         ReactGA.event({
             category: 'Downloads',
@@ -11,7 +22,17 @@ export class About extends Component {
           });
         this.pdfExportComponent.save();
     }
+
+  componentDidMount(){
+    demoAsyncCall().then(() => this.setState({ loading: false }));
+  }
+    
     render() {
+
+    const { loading } = this.state;
+    if(loading) { 
+      return <Loader />; 
+    }
         return (
             <section className="about-me container-fluid" id="about-me">
                 <br></br>
