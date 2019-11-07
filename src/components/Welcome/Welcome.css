@@ -1,10 +1,7 @@
 .intro {
     height: 100vh;
-    background-image: url(http://i.stack.imgur.com/kx8MT.gif);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
     overflow: hidden;
     filter: drop-shadow(0px 2px 0px rgba(244, 247, 249, 1));
     cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
