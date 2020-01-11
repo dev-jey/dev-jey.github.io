@@ -241,7 +241,7 @@ class Cv extends React.Component{
                 </div>
                 <div className="col-6 text-mute">
                 Hesbon Maiyo<br></br>
-                Self Employed,<br></br>
+                Software Engineer, Andela<br></br>
                 hesbonkiptoo1996@gmail.com<br></br>
                 +254727737299
                 </div>
