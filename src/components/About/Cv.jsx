@@ -43,7 +43,7 @@ class Cv extends React.Component{
             I am a passionate software developer with over 2 years of experience in the
             field. My main stack is Javascript (PEAN) and I also have experience with
             Python(Django and flask). Throughout my time as a software developer, I have worked with different teams to create 
-            applications that optimized systems, saved on cost and improved other users' experience.  
+            applications that optimized systems, saved on cost and improved users' experience.  
             
             </p>
         </div>
@@ -87,7 +87,7 @@ class Cv extends React.Component{
                     </div>
                     Angular
                     <div class="progress" style={{height: "6px" }}>
-                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "98%"}} aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
                     React
@@ -114,8 +114,40 @@ class Cv extends React.Component{
             </div>
 
         <div  className="text-left text-sm page-break">
-        <hr></hr>
             <h6><b>Work Experience</b></h6>
+        <b>Freelance Software Engineer at StudyPool</b><br></br>
+            <label className="text-muted">February, 2017 - September 2018</label><br></br>
+            <p className="pl-2 text-mute">I was a remote software developer at <a href="https://www.studypool.com/TutorPec/" 
+            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
+            >Studypool</a> 
+            <br></br>
+            <strong className="text-muted">Projects accomplished</strong>
+            <ul className="ml-4">
+                <li>C# Hospital management App - <a href="https://github.com/dev-jey/c-sharp-hospital-console-app.git" 
+            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
+            >link</a></li>
+                <li>Car hire system (PHP, HTML, mySQL) - <a href="
+                https://github.com/dev-jey/Car-hire-system" 
+            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
+            >link</a>
+                </li>
+                <li>Member Registration Sys (Flask-Restful) - <a href="
+                https://github.com/dev-jey/Signup-system-flask.git" 
+            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
+            >link</a>
+                </li>
+                <li>POS system (Java) - <a href="
+                https://github.com/dev-jey/java-store-management-app" 
+            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
+            >link</a>
+                </li>
+                <li>Hadoop Algorithm (Map-Reduce) - <a href="
+                https://github.com/dev-jey/hadoop-algorithm" 
+            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
+            >link</a>
+                </li>
+            </ul>
+            </p>
             <b>Software Engineer at Andela, Nairobi</b><br></br>
             <label className="text-muted">September, 2018 - September, 2019</label><br></br>
             <i className="p-2" style={{fontSize:"11px"}}>January, 2019 - April, 2019</i>
@@ -158,11 +190,10 @@ class Cv extends React.Component{
             
             </div>
     </div>
-    <div  className="text-left text-sm page-break">
+    <div  className="text-left text-sm">
         <hr></hr>
             <b>Software Engineer at Medbook Africa, Nairobi</b><br></br>
             <label className="text-muted">October, 2019 - Current</label><br></br>
-            <hr className="normal-hr-2"></hr>
             <p className="pl-2 text-mute">
                 I am part of a frontend development team that is working on a product called 
                 <a href="https://mediclaim.medbookafrica.com/" 
@@ -179,9 +210,6 @@ class Cv extends React.Component{
             </p>
     </div>
 
-
-
-        
     <hr></hr>
     <div  className="text-left text-sm">
             <h6><b>Education</b></h6>
