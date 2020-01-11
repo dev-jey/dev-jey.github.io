@@ -119,7 +119,7 @@ class Cv extends React.Component{
             <label className="text-muted">February, 2017 - September 2018</label><br></br>
             <p className="pl-2 text-mute">I was a remote software developer at <a href="https://www.studypool.com/TutorPec/" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            >Studypool</a> 
+            >Studypool</a> helping clients develop diverse in-house software solutions. 
             <br></br>
             <strong className="text-muted">Projects accomplished</strong>
             <ul className="ml-4">
@@ -234,10 +234,10 @@ class Cv extends React.Component{
             <h6><b>References</b></h6>
             <div className="container row">
                 <div className="col-6 text-mute">
-                Dr. Kiiru Dishon<br></br>
-                Lecturer, Multimedia University<br></br>
-                dtkiiru@gmail.com<br></br>
-                +254722858508
+                Frank Magoba<br></br>
+                Software Engineer, Medbook Africa<br></br>
+                franklinmagoba4@gmail.com<br></br>
+                +254725254911
                 </div>
                 <div className="col-6 text-mute">
                 Hesbon Maiyo<br></br>
