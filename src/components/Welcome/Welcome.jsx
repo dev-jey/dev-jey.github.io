@@ -20,8 +20,8 @@ export class Welcome extends Component {
                         </div>
                     </div>
                     <i>Oh! Hello, Nice to meet you</i>
-                    <h1 className="title">Hi there, &nbsp;
-          <label class="typewrite" data-period="2000" data-type='[ "Am James Savali.", "Am passionate.", "Am Creative." ]'>
+                    <h1 className="title">
+          <label class="typewrite" data-period="2000" data-type='[ "James Savali", "passionate", "Creative" ]'>
                             <span class="wrap"></span>
                         </label></h1>
                         <div className="col-md-4 text-center mt-2 mx-auto">

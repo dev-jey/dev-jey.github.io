@@ -116,8 +116,8 @@ class Cv extends React.Component{
         <div  className="text-left text-sm page-break">
         <hr></hr>
             <h6><b>Work Experience</b></h6>
-            Software Engineer at Andela, Nairobi<br></br>
-            <label className="text-muted">January, 2019 - September, 2019</label><br></br>
+            <b>Software Engineer at Andela, Nairobi</b><br></br>
+            <label className="text-muted">September, 2018 - September, 2019</label><br></br>
             <i className="p-2" style={{fontSize:"11px"}}>January, 2019 - April, 2019</i>
             <p className="pl-2 text-mute">
             I was part of a team that worked on a product called <a href="https://indiana-ah-frontend.herokuapp.com/" 
@@ -157,6 +157,26 @@ class Cv extends React.Component{
             </p>
             
             </div>
+    </div>
+    <div  className="text-left text-sm page-break">
+        <hr></hr>
+            <b>Software Engineer at Medbook Africa, Nairobi</b><br></br>
+            <label className="text-muted">October, 2019 - Current</label><br></br>
+            <hr className="normal-hr-2"></hr>
+            <p className="pl-2 text-mute">
+                I am part of a frontend development team that is working on a product called 
+                <a href="https://mediclaim.medbookafrica.com/" 
+                target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
+                > Mediclaim.</a> 
+            This is a health management system that involves processing of insurance claims, authorizations,
+            and handling customer requests.
+            <br></br>
+            <strong className="text-muted">Stacks</strong>
+            <ul className="ml-4">
+                <li>Angular 8</li>
+                <li>Php laravel</li>
+            </ul>
+            </p>
     </div>
 
 
