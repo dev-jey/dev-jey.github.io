@@ -116,7 +116,7 @@ class Cv extends React.Component{
         <div  className="text-left text-sm page-break">
             <h6><b>Work Experience</b></h6>
         <b>Freelance Software Engineer at StudyPool</b><br></br>
-            <label className="text-muted">February, 2017 - September 2018</label><br></br>
+            <label className="text-muted">February 2017 - September 2018</label><br></br>
             <p className="pl-2 text-mute">I was a remote software developer at <a href="https://www.studypool.com/TutorPec/" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
             >Studypool</a> helping clients develop diverse in-house software solutions. 
@@ -149,8 +149,8 @@ class Cv extends React.Component{
             </ul>
             </p>
             <b>Software Engineer at Andela, Nairobi</b><br></br>
-            <label className="text-muted">September, 2018 - September, 2019</label><br></br>
-            <i className="p-2" style={{fontSize:"11px"}}>January, 2019 - April, 2019</i>
+            <label className="text-muted">September 2018 - September 2019</label><br></br>
+            <i className="p-2" style={{fontSize:"11px"}}>January 2019 - April 2019</i>
             <p className="pl-2 text-mute">
             I was part of a team that worked on a product called <a href="https://indiana-ah-frontend.herokuapp.com/" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
@@ -161,7 +161,7 @@ class Cv extends React.Component{
             for the front-end.
             </p>
             <hr className="normal-hr-2"></hr>
-            <i className="p-2" style={{fontSize:"11px"}}>May, 2019 - Sep, 2019</i>
+            <i className="p-2" style={{fontSize:"11px"}}>May 2019 - Sep 2019</i>
             <p className="pl-2 text-mute">
             I was also part of a full-stack development team that worked on a product called 
             <a href="https://tembea.andela.com/" 
@@ -225,7 +225,7 @@ class Cv extends React.Component{
     <div  className="text-left text-sm">
             <h6><b>Hobbies</b></h6>
             <p className="pl-2 text-mute">
-                Skating, Swimming, Reading Novels
+                Travelling, Camping, Hiking
             </p>
     </div>
 
