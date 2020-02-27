@@ -126,7 +126,7 @@ class Cv extends React.Component{
                 <li>C# Hospital management App - <a href="https://github.com/dev-jey/c-sharp-hospital-console-app.git" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
             >link</a></li>
-                <li>Car hire system (PHP, HTML, mySQL) - <a href="
+                <li>Car hire system (PHP, HTML, MySQL) - <a href="
                 https://github.com/dev-jey/Car-hire-system" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
             >link</a>
@@ -167,7 +167,7 @@ class Cv extends React.Component{
             <a href="https://tembea.andela.com/" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
             > Tembea.</a> 
-            This project was aimed at managing andela's travel and transfers.<br></br>
+            This project was aimed at managing ndela's travel and transfers.<br></br>
             Stacks: Angular, NodeJS <br></br>
             Achievements:<br></br>
             <ul className="pl-4">
@@ -179,7 +179,7 @@ class Cv extends React.Component{
                     reduced the amount of money spend by the company on transport by more than 10%.
                     </li>
                 <li>I was an active member of the team contributing to the codebase for a period of 3 months. 
-                    During this period, Tembea managed to increase the efficiency of local travel activites 
+                    During this period, Tembea managed to increase the efficiency of local travel activities 
                     in the company. 
                 </li>
                 <li>I was also a Technical coordinator for the team for a period of a month. The team output
@@ -193,19 +193,19 @@ class Cv extends React.Component{
     <div  className="text-left text-sm">
         <hr></hr>
             <b>Software Engineer at Medbook Africa, Nairobi</b><br></br>
-            <label className="text-muted">October, 2019 - Current</label><br></br>
+            <label className="text-muted">October 2019 - Current</label><br></br>
             <p className="pl-2 text-mute">
                 I am part of a frontend development team that is working on a product called 
                 <a href="https://mediclaim.medbookafrica.com/" 
                 target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
                 > Mediclaim.</a> 
-            This is a health management system that involves processing of insurance claims, authorizations,
+            This is a health management system that involves the processing of insurance claims, authorizations,
             and handling customer requests.
             <br></br>
             <strong className="text-muted">Stacks</strong>
             <ul className="ml-4">
                 <li>Angular 8</li>
-                <li>Php laravel</li>
+                <li>Php Laravel</li>
             </ul>
             </p>
     </div>
@@ -215,7 +215,7 @@ class Cv extends React.Component{
             <h6><b>Education</b></h6>
             Bachelor of Science in Computer Science, Multimedia University of Kenya, Nairobi
             <br></br>
-            <label className="text-muted">September, 2015 - Present(Completion: April, 2020)</label>
+            <label className="text-muted">September 2015 - April 2020</label>
             <p className="pl-2 text-mute">
             This course has helped to build my understanding of a wide range of software, and technological ICT skills required by the industry
             </p>
