@@ -62,7 +62,7 @@ class Cv extends React.Component{
                     Other Skills
                     <hr className="normal-hr-2"></hr>
                     <ul className="pl-4">
-                        <li>DevOps(aws & GCP) & CI/CD</li>
+                        <li>DevOps(AWS & GCP) & CI/CD</li>
                         <li>Patterns (MVC), Rest APIs and GraphQL.</li>
                         <li>Testing & linting</li>
                         <li>UI/UX design with Invision</li>
@@ -166,17 +166,17 @@ class Cv extends React.Component{
             I was also part of a full-stack development team that worked on a product called 
             <a href="https://tembea.andela.com/" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            > Tembea.</a> 
-            This project was aimed at managing ndela's travel and transfers.<br></br>
+            > Tembea. </a> 
+            This project was aimed at managing Andela's travel and transfers.<br></br>
             Stacks: Angular, NodeJS <br></br>
             Achievements:<br></br>
             <ul className="pl-4">
                 <li>
                     The product ensures that employees
-                    are able to get cab services, airport transfers and other travel functions with ease.
+                    can get cab services, airport transfers and other travel functions with ease.
                     
                     It also has
-                    reduced the amount of money spend by the company on transport by more than 10%.
+                    reduced the amount of money spent by the company on transport by more than 10%.
                     </li>
                 <li>I was an active member of the team contributing to the codebase for a period of 3 months. 
                     During this period, Tembea managed to increase the efficiency of local travel activities 
