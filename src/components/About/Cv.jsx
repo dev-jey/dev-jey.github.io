@@ -42,8 +42,8 @@ class Cv extends React.Component{
             <p className="p-2 text-mute">
             I am a passionate software developer with over 2 years of experience in the
             field. My main stack is Javascript (PEAN) and I also have experience with
-            Python(Django and flask). Throughout my time as a software developer, I have worked with different teams to create 
-            applications that optimized systems, saved on cost and improved users' experience.  
+             Django and Flask. Throughout my time as a software developer, I have worked with different teams to create 
+            applications that optimized systems, saved on cost, and improved users' experience.  
             
             </p>
         </div>
@@ -62,7 +62,7 @@ class Cv extends React.Component{
                     Other Skills
                     <hr className="normal-hr-2"></hr>
                     <ul className="pl-4">
-                        <li>DevOps(AWS & GCP) & CI/CD</li>
+                        <li>DevOps (AWS & GCP) & CI/CD</li>
                         <li>Patterns (MVC), Rest APIs and GraphQL.</li>
                         <li>Testing & linting</li>
                         <li>UI/UX design with Invision</li>
@@ -80,7 +80,7 @@ class Cv extends React.Component{
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "99%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
-                    Node js(express)
+                    Node js (express)
                     <div class="progress" style={{height: "6px" }}>
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "93%"}} aria-valuenow="93" aria-valuemin="0" aria-valuemax="100">
                         </div>
@@ -152,19 +152,18 @@ class Cv extends React.Component{
             <label className="text-muted">September 2018 - September 2019</label><br></br>
             <i className="p-2" style={{fontSize:"11px"}}>January 2019 - April 2019</i>
             <p className="pl-2 text-mute">
-            I was part of a team that worked on a product called <a href="https://indiana-ah-frontend.herokuapp.com/" 
+            I was part of a team that worked on a product called<a href="https://indiana-ah-frontend.herokuapp.com/" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            >Authors Haven</a> 
+            > Authors Haven</a> 
             . This is a social platform that allows writers/article authors to express themselves
             and be sure to reach out to their target audience.
-            The stacks used are; Python Django(DRF) for the back-end and React-Redux
+            The stacks used are Python Django (DRF) for the back-end and React-Redux
             for the front-end.
             </p>
             <hr className="normal-hr-2"></hr>
             <i className="p-2" style={{fontSize:"11px"}}>May 2019 - Sep 2019</i>
             <p className="pl-2 text-mute">
-            I was also part of a full-stack development team that worked on a product called 
-            <a href="https://tembea.andela.com/" 
+            I was also part of a full-stack development team that worked on a product called<a href="https://tembea.andela.com/" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
             > Tembea. </a> 
             This project was aimed at managing Andela's travel and transfers.<br></br>
@@ -178,11 +177,11 @@ class Cv extends React.Component{
                     It also has
                     reduced the amount of money spent by the company on transport by more than 10%.
                     </li>
-                <li>I was an active member of the team contributing to the codebase for a period of 3 months. 
+                <li>I was an active member of the team contributing to the codebase for 3 months. 
                     During this period, Tembea managed to increase the efficiency of local travel activities 
                     in the company. 
                 </li>
-                <li>I was also a Technical coordinator for the team for a period of a month. The team output
+                <li>I was also a Technical coordinator for the team for a month. The team output
                     during this period increased by a large margin.
                 </li>
             </ul>
@@ -198,7 +197,7 @@ class Cv extends React.Component{
                 I am part of a frontend development team that is working on a product called 
                 <a href="https://mediclaim.medbookafrica.com/" 
                 target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-                > Mediclaim.</a> 
+                > Mediclaim. </a> 
             This is a health management system that involves the processing of insurance claims, authorizations,
             and handling customer requests.
             <br></br>
@@ -225,7 +224,7 @@ class Cv extends React.Component{
     <div  className="text-left text-sm">
             <h6><b>Hobbies</b></h6>
             <p className="pl-2 text-mute">
-                Travelling, Camping, Hiking
+                Travelling, Camping, and Hiking
             </p>
     </div>
 
