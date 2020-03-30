@@ -7,7 +7,7 @@ export class Pastwork extends Component {
         return (
             <div>
                 <div class="p-5 p-work rounded mb-5">
-                <br></br><br></br>
+                    <br></br><br></br>
                     <header class="mb-5 text-center">
                         <h2 class="text-uppercase">My Previous Works</h2>
                         <hr className="normal-hr"></hr>
@@ -26,7 +26,7 @@ export class Pastwork extends Component {
                                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825350/storo/fadhila.png">
-                                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825350/storo/fadhila.png" alt="" class="img-fluid card-img-top" />
+                                            <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571825350/storo/fadhila.png" alt="" class="img-fluid card-img-top" />
                                         </a>
                                         <div class="p-4">
                                             <h5 class="text-dark">Fadhila Network</h5>
@@ -42,15 +42,17 @@ export class Pastwork extends Component {
                                             </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
                                                 <p class="small mb-0"><i class="fab fa-python mr-2"></i><i class="fab fa-react mr-2"></i> <span class="font-weight-bold">
-                                                <a href="https://github.com/dev-jey/fadhila/" onClick={()=>ReactGA.event({
-                                                                        category: 'Visit Repo',
-                                                                        action: 'Fadhila Repo' })}
-                                                >Github Repo</a>
-                                                    </span></p>
-                                                <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer"  onClick={()=>ReactGA.event({
-                                                                        category: 'Visit Site',
-                                                                        action: 'Fadhila Site' })}
-                                                class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                                    <a href="https://github.com/dev-jey/fadhila/" onClick={() => ReactGA.event({
+                                                        category: 'Visit Repo',
+                                                        action: 'Fadhila Repo'
+                                                    })}
+                                                    >Github Repo</a>
+                                                </span></p>
+                                                <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.event({
+                                                    category: 'Visit Site',
+                                                    action: 'Fadhila Site'
+                                                })}
+                                                    class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -73,15 +75,17 @@ export class Pastwork extends Component {
                                             </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
                                                 <p class="small mb-0"><i class="fab fa-angular mr-2"></i><i class="fab fa-node mr-2"></i><span class="font-weight-bold">
-                                                <a href="https://github.com/andela/tembea/"  onClick={()=>ReactGA.event({
-                                                                        category: 'Visit Repo',
-                                                                        action: 'Tembea Repo' })}
-                                                >Private Repo</a>
-                                                    </span></p>
-                                                <a href="https://tembea.andela.com/" target="_blank" rel="noopener noreferrer"  onClick={()=>ReactGA.event({
-                                                                        category: 'Visit Site',
-                                                                        action: 'Tembea Site' })}
-                                                class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                                    <a href="https://github.com/andela/tembea/" onClick={() => ReactGA.event({
+                                                        category: 'Visit Repo',
+                                                        action: 'Tembea Repo'
+                                                    })}
+                                                    >Private Repo</a>
+                                                </span></p>
+                                                <a href="https://tembea.andela.com/" target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.event({
+                                                    category: 'Visit Site',
+                                                    action: 'Tembea Site'
+                                                })}
+                                                    class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -103,15 +107,17 @@ export class Pastwork extends Component {
                                             </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
                                                 <p class="small mb-0"><i class="fab fa-node mr-2"></i><i class="fab fa-react mr-2"></i> <span class="font-weight-bold">
-                                                    <a href="https://github.com/andela/ah-the-phoenix/"  onClick={()=>ReactGA.event({
-                                                                        category: 'Visit Repo',
-                                                                        action: 'Authors Haven Site' })}
+                                                    <a href="https://github.com/andela/ah-the-phoenix/" onClick={() => ReactGA.event({
+                                                        category: 'Visit Repo',
+                                                        action: 'Authors Haven Site'
+                                                    })}
                                                     >Github Repo</a>
-                                                    </span></p>
-                                                <a href="https://indiana-ah-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer"  onClick={()=>ReactGA.event({
-                                                                        category: 'Visit Site',
-                                                                        action: 'Authors Haven' })}
-                                                class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                                </span></p>
+                                                <a href="https://indiana-ah-frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.event({
+                                                    category: 'Visit Site',
+                                                    action: 'Authors Haven'
+                                                })}
+                                                    class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -121,27 +127,29 @@ export class Pastwork extends Component {
                                     <div class="bg-white rounded shadow-sm"><a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571828484/storo/Screenshot_from_2019-10-23_14-00-13.png">
                                         <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571828484/storo/Screenshot_from_2019-10-23_14-00-13.png" alt="" class="img-fluid card-img-top" /></a>
                                         <div class="p-4">
-                                            <h5 class="text-dark">HeySasa</h5>
-                                            <p class="small"> A platform whereby classmates can share relevant information concerning their classes and notes.</p>
+                                            <h5 class="text-dark">Corona Count</h5>
+                                            <p class="small"> A platform whereby one can access real-time information with regards to the spread of corona virus.</p>
                                             <p class="small text-muted mb-0">Key aspects</p>
                                             <ul class="small text-muted ml-3">
-                                                <li>Angular 7</li>
-                                                <li>Cloudinary, Angular material</li>
-                                                <li>MongoDB migrated to Postgres</li>
-                                                <li>NodeJS, express, restful API</li>
-                                                <li>WebSockets using socket.io</li>
+                                                <li>HTML/Scss</li>
+                                                <li>Python Django, DRF</li>
+                                                <li>Postgres</li>
+                                                <li>Celery</li>
+                                                <li>Selenium</li>
                                             </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
                                                 <p class="small mb-0"><i class="fab fa-node mr-2"></i><i class="fab fa-angular mr-2"></i> <span class="font-weight-bold">
-                                                    <a href="https://github.com/dev-jey/heysasa/"  onClick={()=>ReactGA.event({
-                                                                        category: 'Visit Repo',
-                                                                        action: 'Heysasa Repo' })}
+                                                    <a href="https://github.com/dev-jey/coronacount-backend" onClick={() => ReactGA.event({
+                                                        category: 'Visit Repo',
+                                                        action: 'Corona Repo'
+                                                    })}
                                                     >Github Repo</a>
-                                                    </span></p>
-                                                <a href="https://heysasa.herokuapp.com/" target="_blank" rel="noopener noreferrer"  onClick={()=>ReactGA.event({
-                                                                        category: 'Visit Site',
-                                                                        action: 'Fadhila Site' })}
-                                                class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
+                                                </span></p>
+                                                <a href="https://coronacount.netlify.com/" target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.event({
+                                                    category: 'Visit Site',
+                                                    action: 'Corona Site'
+                                                })}
+                                                    class="badge badge-danger px-3 rounded-pill font-weight-normal">Visit Site</a>
                                             </div>
                                         </div>
                                     </div>
@@ -166,7 +174,7 @@ export class Pastwork extends Component {
                             {/* </div> */}
                             <p className="text-center">Check out more projects on my github account:
                             <br></br>
-                            <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark text-center mx-auto"><i class="fab fa-github-square fa-4x p-2 text-center"></i></a>
+                                <a href="https://github.com/dev-jey" target="_blank" rel="noopener noreferrer" className="text-dark text-center mx-auto"><i class="fab fa-github-square fa-4x p-2 text-center"></i></a>
                             </p>
                         </div>
                     </div>

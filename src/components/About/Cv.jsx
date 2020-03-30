@@ -40,8 +40,8 @@ class Cv extends React.Component{
         <div className="text-left text-sm">
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
-            I am a passionate software developer with over 2 years of experience in the
-            field. My main stack is Javascript (PEAN) and I also have experience with
+            I am a passionate software developer with over 3 years of experience in the
+            field. My main stack is Python and I also have immense experience working with
              Django and Flask. Throughout my time as a software developer, I have worked with different teams to create 
             applications that optimized systems, saved on cost, and improved users' experience.  
             
@@ -82,7 +82,7 @@ class Cv extends React.Component{
                     </div>
                     Node js (express)
                     <div class="progress" style={{height: "6px" }}>
-                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "93%"}} aria-valuenow="93" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "83%"}} aria-valuenow="83" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
                     Angular
@@ -98,11 +98,6 @@ class Cv extends React.Component{
                     HTML/CSS/Sass
                     <div class="progress" style={{height: "6px" }}>
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                        </div>
-                    </div>
-                    Java
-                    <div class="progress" style={{height: "6px" }}>
-                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "70%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="70">
                         </div>
                     </div>
                     PostgreSQL, MySQL, MongoDB
