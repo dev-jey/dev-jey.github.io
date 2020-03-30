@@ -41,7 +41,7 @@ class Cv extends React.Component{
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
             I am a passionate software developer with over 3 years of experience in the
-            field. My main stack is Python and I also have immense experience working with
+            field. My main stack is Python and I have immense experience working with
              Django and Flask. Throughout my time as a software developer, I have worked with different teams to create 
             applications that optimized systems, saved on cost, and improved users' experience.  
             
@@ -62,10 +62,11 @@ class Cv extends React.Component{
                     Other Skills
                     <hr className="normal-hr-2"></hr>
                     <ul className="pl-4">
-                        <li>DevOps (AWS & GCP) & CI/CD</li>
+                        <li>CI/CD</li>
                         <li>Patterns (MVC), Rest APIs and GraphQL.</li>
                         <li>Testing & linting</li>
-                        <li>UI/UX design with Invision</li>
+                        <li>UI/UX design with Figma</li>
+                        <li>Data scraping, analysis and visualization</li>
                     </ul>
                 </div>
                 <div className="col-6 p-1">Professional skills
@@ -80,9 +81,9 @@ class Cv extends React.Component{
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "99%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
-                    Node js (express)
+                    Data science(bs4, selenium, pandas, numpy, matplotlib, scikit learn)
                     <div class="progress" style={{height: "6px" }}>
-                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "83%"}} aria-valuenow="83" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "86%"}} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
                     Angular

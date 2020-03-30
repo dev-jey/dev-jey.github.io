@@ -124,8 +124,8 @@ export class Pastwork extends Component {
                                 </div>
 
                                 <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                                    <div class="bg-white rounded shadow-sm"><a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1571828484/storo/Screenshot_from_2019-10-23_14-00-13.png">
-                                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1571828484/storo/Screenshot_from_2019-10-23_14-00-13.png" alt="" class="img-fluid card-img-top" /></a>
+                                    <div class="bg-white rounded shadow-sm"><a href="https://res.cloudinary.com/dw675k0f5/image/upload/v1585542597/storo/Screen_Shot_2020-03-30_at_7.26.16_AM.png">
+                                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1585542597/storo/Screen_Shot_2020-03-30_at_7.26.16_AM.png" alt="" class="img-fluid card-img-top" /></a>
                                         <div class="p-4">
                                             <h5 class="text-dark">Corona Count</h5>
                                             <p class="small"> A platform whereby one can access real-time information with regards to the spread of corona virus.</p>
