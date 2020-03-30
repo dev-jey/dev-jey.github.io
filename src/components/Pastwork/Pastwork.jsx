@@ -131,14 +131,14 @@ export class Pastwork extends Component {
                                             <p class="small"> A platform whereby one can access real-time information with regards to the spread of corona virus.</p>
                                             <p class="small text-muted mb-0">Key aspects</p>
                                             <ul class="small text-muted ml-3">
-                                                <li>HTML/Scss</li>
+                                                <li>HTML/Scss, Mapbox</li>
                                                 <li>Python Django, DRF</li>
                                                 <li>Postgres</li>
                                                 <li>Celery</li>
                                                 <li>Selenium</li>
                                             </ul>
                                             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                                                <p class="small mb-0"><i class="fab fa-node mr-2"></i><i class="fab fa-angular mr-2"></i> <span class="font-weight-bold">
+                                                <p class="small mb-0"><i class="fab fa-python mr-2"></i> <span class="font-weight-bold">
                                                     <a href="https://github.com/dev-jey/coronacount-backend" onClick={() => ReactGA.event({
                                                         category: 'Visit Repo',
                                                         action: 'Corona Repo'
