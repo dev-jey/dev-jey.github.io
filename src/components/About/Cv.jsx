@@ -41,8 +41,8 @@ class Cv extends React.Component{
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
             I am a passionate software developer with over 3 years of experience in the
-            field. My main stack is Python and I have immense experience working with
-             Django and Flask. Throughout my time as a software developer, I have worked with different teams to create 
+            field. My main stack is PERN and I have immense experience working with
+             Django and Flask too. Throughout my time as a software developer, I have worked with different teams to create 
             applications that optimized systems, saved on cost, and improved users' experience.  
             
             </p>
@@ -86,7 +86,7 @@ class Cv extends React.Component{
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "86%"}} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
-                    Angular
+                    NodeJS
                     <div class="progress" style={{height: "6px" }}>
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "98%"}} aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
                         </div>
