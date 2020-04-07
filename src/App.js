@@ -76,26 +76,26 @@ class App extends React.Component {
     return (
       <div className="App mx-auto">
          { ReactGA.pageview('/') }
-        <Welcome />
+        {/* <Welcome />
         <br></br>
         <br></br>
-        <br></br>
+        <br></br> */}
         <About />
-        <br></br>
+        {/* <br></br>
         <br></br>
         <br></br>
         <hr></hr>
         <br></br>
         <br></br>
         <br></br>
-        <Skills />
+        <Skills /> */}
+        {/* <br></br>
         <br></br>
         <br></br>
+        <Pastwork /> */}
+        {/* <br></br>
         <br></br>
-        <Pastwork />
-        <br></br>
-        <br></br>
-        <Contact />
+        <Contact /> */}
       </div>
     );
   }

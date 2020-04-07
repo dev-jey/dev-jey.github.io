@@ -8,11 +8,11 @@ export class Welcome extends Component {
             <section className="intro text-center" id="title-section">
                 <div className="title-text col-sm-10 col-sm-12 col-lg-12">
                     <div>
-                        {/* <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1586256481/storo/imageedit_1_2747973192.png"
+                        <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1586256481/storo/imageedit_1_2747973192.png"
                             width="200"
                             height="200"
                             className="mx-auto d-block img-responsive"
-                            alt="" /> */}
+                            alt="" />
                         <div class="rank-label-container">
                             <label htmlFor="file-upload" class="rank-label">
                                 <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1570648506/flag.png" width="20" alt="" />

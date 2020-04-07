@@ -31,11 +31,11 @@ class Cv extends React.Component{
 
         <hr></hr>
 
-        <div className="text-left text-sm">
+        <div className="text-left text-sm"  style={{fontSize: '15.5px'}}>
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
             I am a passionate software developer with over 3 years of experience in the
-            field. My main stack is PERN and I have immense experience working with
+            field. My main stack is python and I have immense experience working with
              Django and Flask too. Throughout my time as a software developer, I have worked with different teams to create 
             applications that optimized systems, saved on cost, and improved users' experience.  
             
@@ -43,7 +43,7 @@ class Cv extends React.Component{
         </div>
         <hr></hr>
 
-        <div className="text-left text-sm">
+        <div className="text-left text-sm"  style={{fontSize: '15.5px'}}>
             <h6><b>Skills</b></h6>
             <div className="container-fluid row">
                 <div className="col-6 p-1">Personal Attributes
@@ -102,8 +102,39 @@ class Cv extends React.Component{
                     </div>
                 </div>
             </div>
-
-        <div  className="text-left text-sm">
+<hr></hr>
+            <h6><b>My Projects<br></br></b></h6>
+        <div className="row">
+            <div className="col-md-6">
+                    <b>Fadhila Network  </b>
+                    <div style={{fontSize: '15.5px'}}>A charity organization aimed at modernizing and improving how people help one another.<br></br>
+                                           <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer">fadhila.herokuapp.com</a>
+                    </div>
+            </div>
+            <div className="col-md-6">
+            <b>Tembea</b>
+                    <div style={{fontSize: '15.5px'}}>An application aimed at managing cabs and other travel needs at Andela.<br></br>
+                                           <a href="https://tembea.andela.com" target="_blank" rel="noopener noreferrer">tembea.andela.com</a>
+                    </div>
+            </div>
+        </div>
+        <br></br>
+        <div className="row">
+            <div className="col-md-6">
+                    <b>Corona Count  </b>
+                    <div style={{fontSize: '15.5px'}}>A platform whereby one can access real-time information with regards to the spread of corona virus.<br></br>
+                                           <a href="https://coronacount.netlify.com" target="_blank" rel="noopener noreferrer">coronacount.netlify.com</a>
+                    </div>
+            </div>
+            <div className="col-md-6">
+            <b>Authors Haven</b>
+                    <div style={{fontSize: '15.5px'}}>A platform whereby authors and article writers are able to express themselves.<br></br>
+                                           <a href="https://indiana-ah-frontend.herokuapp.com" target="_blank" rel="noopener noreferrer">indiana-ah-frontend.herokuapp.com</a>
+                    </div>
+            </div>
+        </div>
+        <div  className="text-left text-sm page-break">
+        <hr></hr>
             <h6><b>Work Experience</b></h6>
         <b>Freelance Software Engineer at StudyPool</b><br></br>
             <label className="text-muted">February 2017 - September 2018</label><br></br>
@@ -115,26 +146,26 @@ class Cv extends React.Component{
             <ul className="ml-4">
                 <li>C# Hospital management App - <a href="https://github.com/dev-jey/c-sharp-hospital-console-app.git" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            >link</a></li>
+            ><i className="fa fa-github"></i></a></li>
                 <li>Car hire system (PHP, HTML, MySQL) - <a href="
                 https://github.com/dev-jey/Car-hire-system" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            >link</a>
+            ><i className="fa fa-github"></i></a>
                 </li>
                 <li>Member Registration Sys (Flask-Restful) - <a href="
                 https://github.com/dev-jey/Signup-system-flask.git" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            >link</a>
+            ><i className="fa fa-github"></i></a>
                 </li>
                 <li>POS system (Java) - <a href="
                 https://github.com/dev-jey/java-store-management-app" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            >link</a>
+            ><i className="fa fa-github"></i></a>
                 </li>
                 <li>Hadoop Algorithm (Map-Reduce) - <a href="
                 https://github.com/dev-jey/hadoop-algorithm" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            >link</a>
+            ><i className="fa fa-github"></i></a>
                 </li>
             </ul>
             </p>
@@ -179,7 +210,7 @@ class Cv extends React.Component{
             
             </div>
     </div>
-    <div  className="text-left text-sm">
+    <div  className="text-left text-sm" style={{fontSize: '15.5px'}}>
         <hr></hr>
             <b>Software Engineer at Medbook Africa, Nairobi</b><br></br>
             <label className="text-muted">October 2019 - Current</label><br></br>
@@ -200,7 +231,7 @@ class Cv extends React.Component{
     </div>
 
     <hr></hr>
-    <div  className="text-left text-sm">
+    <div  className="text-left text-sm" style={{fontSize: '15.5px'}}>
             <h6><b>Education</b></h6>
             Bachelor of Science in Computer Science, Multimedia University of Kenya, Nairobi
             <br></br>
@@ -219,7 +250,7 @@ class Cv extends React.Component{
     </div>
 
     <hr></hr>
-    <div  className="text-left text-sm">
+    <div  className="text-left text-sm" style={{fontSize: '15.5px'}}>
             <h6><b>References</b></h6>
             <div className="container row">
                 <div className="col-6 text-mute">
