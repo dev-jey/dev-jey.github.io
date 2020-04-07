@@ -3,7 +3,7 @@ import React from 'react';
 class Cv extends React.Component{
     render(){
         return <div className="p-4">
-             <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1572030062/storo/WhatsApp_Image_2019-10-19_at_18.34.48.jpg"
+             <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1586256481/storo/imageedit_1_2747973192.png"
                             width="150"
                             height="150"
                             className="rounded mx-auto d-block img-responsive"
