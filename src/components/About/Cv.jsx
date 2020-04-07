@@ -3,12 +3,6 @@ import React from 'react';
 class Cv extends React.Component{
     render(){
         return <div className="p-4">
-             <img src="https://res.cloudinary.com/dw675k0f5/image/upload/v1586256481/storo/imageedit_1_2747973192.png"
-                            width="150"
-                            height="150"
-                            className="rounded mx-auto d-block img-responsive"
-                            alt="" />
-                            <br></br><br></br>
         <div className="text-center">James Savali,<label className="text-muted">&nbsp;&nbsp;Software Engineer</label>
             <br></br>
             Email: savalijey@gmail.com
@@ -109,7 +103,7 @@ class Cv extends React.Component{
                 </div>
             </div>
 
-        <div  className="text-left text-sm page-break">
+        <div  className="text-left text-sm">
             <h6><b>Work Experience</b></h6>
         <b>Freelance Software Engineer at StudyPool</b><br></br>
             <label className="text-muted">February 2017 - September 2018</label><br></br>
