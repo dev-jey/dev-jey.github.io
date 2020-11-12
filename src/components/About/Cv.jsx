@@ -33,10 +33,7 @@ class Cv extends React.Component{
         <div className="text-left text-sm"  style={{fontSize: '15.5px'}}>
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
-            I am a passionate software developer with over 3 years of experience in the
-            field. My main stack is python and I have immense experience working with
-             Django and Flask too. Throughout my time as a software developer, I have worked with different teams to create 
-            applications that optimized systems, saved on cost, and improved users' experience.  
+            I am a passionate full stack software developer with over 3 years of experience in the field. My main stack is Django - Angular and I have immense experience also working with React and Flask. Throughout my time as a software developer, I have worked with different teams to create applications that optimized systems, saved on cost, and improved users' experience.
             
             </p>
         </div>
