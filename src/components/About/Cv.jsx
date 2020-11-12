@@ -105,9 +105,7 @@ class Cv extends React.Component{
             <h6><b>Work Experience</b></h6>
         <b>Freelance Software Engineer at StudyPool</b><br></br>
             <label className="text-muted">February 2017 - To Date</label><br></br>
-            <p className="pl-2 text-mute">I am a remote software developer at <a href="https://www.studypool.com/TutorPec/" 
-            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            >Studypool</a> helping clients develop diverse in-house software solutions. 
+            <p className="pl-2 text-mute">I am a remote software developer at Studypool helping clients develop diverse in-house software solutions. 
             <br></br>
             </p>
             <b>Software Engineer at Andela, Nairobi</b><br></br>
