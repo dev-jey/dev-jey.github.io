@@ -103,36 +103,8 @@ class Cv extends React.Component{
                 </div>
             </div>
 <hr></hr>
-            <h6><b>My Projects<br></br></b></h6>
-        <div className="row">
-            <div className="col-md-6">
-                    <b>Fadhila Network  </b>
-                    <div style={{fontSize: '15.5px'}}>A charity organization aimed at modernizing and improving how people help one another.<br></br>
-                                           <a href="https://fadhila.herokuapp.com" target="_blank" rel="noopener noreferrer">fadhila.herokuapp.com</a>
-                    </div>
-            </div>
-            <div className="col-md-6">
-            <b>Tembea</b>
-                    <div style={{fontSize: '15.5px'}}>An application aimed at managing cabs and other travel needs at Andela.<br></br>
-                                           <a href="https://tembea.andela.com" target="_blank" rel="noopener noreferrer">tembea.andela.com</a>
-                    </div>
-            </div>
-        </div>
-        <br></br>
-        <div className="row">
-            <div className="col-md-6">
-                    <b>Corona Count  </b>
-                    <div style={{fontSize: '15.5px'}}>A platform whereby one can access real-time information with regards to the spread of corona virus.<br></br>
-                                           <a href="https://coronacount.netlify.com" target="_blank" rel="noopener noreferrer">coronacount.netlify.com</a>
-                    </div>
-            </div>
-            <div className="col-md-6">
-            <b>Authors Haven</b>
-                    <div style={{fontSize: '15.5px'}}>A platform whereby authors and article writers are able to express themselves.<br></br>
-                                           <a href="https://indiana-ah-frontend.herokuapp.com" target="_blank" rel="noopener noreferrer">indiana-ah-frontend.herokuapp.com</a>
-                    </div>
-            </div>
-        </div>
+            <h6><b>My Portfolio - <a href="https://devjey.com" target="_blank">Devjey.com</a><br></br></b></h6>
+      
         <div  className="text-left text-sm page-break">
         <hr></hr>
             <h6><b>Work Experience</b></h6>
