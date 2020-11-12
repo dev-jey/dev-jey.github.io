@@ -13,10 +13,9 @@ class Cv extends React.Component{
             <br></br>
             Nationality: Kenyan
             <br></br>
+            Portfolio: <a href="https://devjey.com" target="_blank">Devjey.com</a>
             <div className="col-md-6 text-center mt-2 mx-auto">
             
-            <a href="https://dev-jey.github.io/"  target="_blank" rel="noopener noreferrer" className="text-dark">
-                <img width="33" src="https://res.cloudinary.com/dw675k0f5/image/upload/e_simulate_colorblind/v1572026291/storo/142-1423933_briefcase-circle-hd-png-download.jpg" alt=""/></a>
             <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark">
                 <img width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZDQ1nLIpshq9ubfuv20tS28rc3i-rxyJMod0A_V-_5caaB34N" alt=""/></a>
             <a href="https://www.linkedin.com/in/devjey/"  target="_blank" rel="noopener noreferrer">
@@ -102,44 +101,17 @@ class Cv extends React.Component{
                     </div>
                 </div>
             </div>
-<hr></hr>
-            <h6><b>My Portfolio - <a href="https://devjey.com" target="_blank">Devjey.com</a><br></br></b></h6>
+
       
-        <div  className="text-left text-sm page-break">
+        <div  className="text-left text-sm">
         <hr></hr>
             <h6><b>Work Experience</b></h6>
         <b>Freelance Software Engineer at StudyPool</b><br></br>
-            <label className="text-muted">February 2017 - September 2018</label><br></br>
-            <p className="pl-2 text-mute">I was a remote software developer at <a href="https://www.studypool.com/TutorPec/" 
+            <label className="text-muted">February 2017 - To Date</label><br></br>
+            <p className="pl-2 text-mute">I am a remote software developer at <a href="https://www.studypool.com/TutorPec/" 
             target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
             >Studypool</a> helping clients develop diverse in-house software solutions. 
             <br></br>
-            <strong className="text-muted">Projects accomplished</strong>
-            <ul className="ml-4">
-                <li>C# Hospital management App - <a href="https://github.com/dev-jey/c-sharp-hospital-console-app.git" 
-            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            ><i className="fa fa-github"></i></a></li>
-                <li>Car hire system (PHP, HTML, MySQL) - <a href="
-                https://github.com/dev-jey/Car-hire-system" 
-            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            ><i className="fa fa-github"></i></a>
-                </li>
-                <li>Member Registration Sys (Flask-Restful) - <a href="
-                https://github.com/dev-jey/Signup-system-flask.git" 
-            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            ><i className="fa fa-github"></i></a>
-                </li>
-                <li>POS system (Java) - <a href="
-                https://github.com/dev-jey/java-store-management-app" 
-            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            ><i className="fa fa-github"></i></a>
-                </li>
-                <li>Hadoop Algorithm (Map-Reduce) - <a href="
-                https://github.com/dev-jey/hadoop-algorithm" 
-            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            ><i className="fa fa-github"></i></a>
-                </li>
-            </ul>
             </p>
             <b>Software Engineer at Andela, Nairobi</b><br></br>
             <label className="text-muted">September 2018 - September 2019</label><br></br>
@@ -183,7 +155,6 @@ class Cv extends React.Component{
             </div>
     </div>
     <div  className="text-left text-sm" style={{fontSize: '15.5px'}}>
-        <hr></hr>
             <b>Software Engineer at Medbook Africa, Nairobi</b><br></br>
             <label className="text-muted">October 2019 - Current</label><br></br>
             <p className="pl-2 text-mute">
