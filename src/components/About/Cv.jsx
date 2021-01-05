@@ -13,7 +13,7 @@ class Cv extends React.Component{
             <br></br>
             Nationality: Kenyan
             <br></br>
-            Portfolio: <a href="https://devjey.com" target="_blank">Devjey.com</a>
+            Portfolio: <a href="https://devjey.com" target="_blank">devjey.com</a>
             <div className="col-md-6 text-center mt-2 mx-auto">
             
             <a href="https://github.com/dev-jey"  target="_blank" rel="noopener noreferrer" className="text-dark">
