@@ -71,9 +71,9 @@ class Cv extends React.Component{
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "99%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
-                    Data science(bs4, selenium, pandas, numpy, matplotlib, scikit learn)
+                    Angular
                     <div class="progress" style={{height: "6px" }}>
-                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "86%"}} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "96%"}} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
                     NodeJS
