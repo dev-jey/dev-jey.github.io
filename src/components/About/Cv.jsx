@@ -81,12 +81,12 @@ class Cv extends React.Component{
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "98%"}} aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
-                    React
+                    React & NextJs
                     <div class="progress" style={{height: "6px" }}>
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "99%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
-                    HTML/CSS/Sass
+                    HTML/CSS/SCSS
                     <div class="progress" style={{height: "6px" }}>
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                         </div>
