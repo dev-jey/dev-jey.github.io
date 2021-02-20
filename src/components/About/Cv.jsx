@@ -33,8 +33,7 @@ class Cv extends React.Component{
         <div className="text-left text-sm"  style={{fontSize: '15.5px'}}>
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
-            I am a passionate full stack software developer with over 3 years of experience in the field. My main stack is Django - Angular and I have immense experience also working with React and Flask. Throughout my time as a software developer, I have worked with different teams to create applications that optimized systems, saved on cost, and improved users' experience.
-            
+            I am a passionate full stack software developer with over 3 years of experience in the field. My main stack is Python & Javascript and I have immense experience also working with related technologies in architecture design. Throughout my time as a software developer, I have worked with different teams to create applications that optimized processes, saved on cost, and improved users' experience.            
             </p>
         </div>
         <hr></hr>
@@ -52,15 +51,19 @@ class Cv extends React.Component{
                     Other Skills
                     <hr className="normal-hr-2"></hr>
                     <ul className="pl-4">
-                        <li>CI/CD</li>
-                        <li>Patterns (MVC), Rest APIs and GraphQL.</li>
-                        <li>Testing & linting</li>
-                        <li>UI/UX design with Figma</li>
+                        <li>CI/CD: Github Actions, AWS, Digital Ocean</li>
+                        <li>Patterns: (MVC), Rest APIs and GraphQL.</li>
+                        <li>Testing & linting: TravisCI, CircleCI</li>
                         <li>Data scraping, analysis and visualization</li>
                     </ul>
                 </div>
-                <div className="col-6 p-1">Professional skills
+                <div className="col-6 p-1">Languages & Frameworks
                     <hr className="normal-hr-2"></hr>
+                    Python
+                    <div class="progress" style={{height: "6px" }}>
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "96%"}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
                     Flask
                     <div class="progress" style={{height: "6px" }}>
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "95%"}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
@@ -71,22 +74,33 @@ class Cv extends React.Component{
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "99%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
-                    Angular
-                    <div class="progress" style={{height: "6px" }}>
-                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "96%"}} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-                        </div>
-                    </div>
-                    NodeJS
-                    <div class="progress" style={{height: "6px" }}>
-                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "98%"}} aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
-                        </div>
-                    </div>
-                    React & NextJs
+                    DRF
                     <div class="progress" style={{height: "6px" }}>
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "99%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
-                    HTML/CSS/SCSS
+                    Bs4, Selenium, Scrapy, Numpy, Pandas
+                    <div class="progress" style={{height: "6px" }}>
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "95%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                    Javascript
+                    <div class="progress" style={{height: "6px" }}>
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "96%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                    React
+                    <div class="progress" style={{height: "6px" }}>
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "96%"}} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+
+                    Angular
+                    <div class="progress" style={{height: "6px" }}>
+                    <div class="progress-bar bg-dark" role="progressbar" style={{ width: "95%"}} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                    HTML/SCSS/Bootstrap/Tailwind
                     <div class="progress" style={{height: "6px" }}>
                     <div class="progress-bar bg-dark" role="progressbar" style={{ width: "100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                         </div>
@@ -103,31 +117,42 @@ class Cv extends React.Component{
         <div  className="text-left text-sm">
         <hr></hr>
             <h6><b>Work Experience</b></h6>
-        <b>Freelance Software Engineer at StudyPool</b><br></br>
-            <label className="text-muted">February 2017 - To Date</label><br></br>
-            <p className="pl-2 text-mute">I am a remote software developer at Studypool helping clients develop diverse in-house software solutions. 
+
+    <div  className="text-left text-sm" style={{fontSize: '15.5px'}}>
+            <b>Software Engineer at Medbook Africa, Nairobi</b><br></br>
+            <label className="text-muted">October 2019 - December 2020</label><br></br>
+            <p className="pl-2 text-mute">
+                I was part of a full stack development team that is working on a product called 
+                Mediclaim.
+            This is a health management system that involves the processing of insurance claims, authorizations,
+            and handling customer requests.
             <br></br>
+            {/* <strong className="text-muted">Stacks</strong>
+            <ul className="ml-4">
+                <li>Javascript - Angular 8</li>
+                <li>Python - Flask</li>
+            </ul> */}
             </p>
+    </div>
             <b>Software Engineer at Andela, Nairobi</b><br></br>
             <label className="text-muted">September 2018 - September 2019</label><br></br>
-            <i className="p-2" style={{fontSize:"11px"}}>January 2019 - April 2019</i>
+            {/* <i className="p-2" style={{fontSize:"11px"}}>January 2019 - April 2019</i> */}
             <p className="pl-2 text-mute">
-            I was part of a team that worked on a product called<a href="https://indiana-ah-frontend.herokuapp.com/" 
-            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            > Authors Haven</a> 
-            . This is a social platform that allows writers/article authors to express themselves
-            and be sure to reach out to their target audience.
-            The stacks used are Python Django (DRF) for the back-end and React-Redux
-            for the front-end.
-            </p>
-            <hr className="normal-hr-2"></hr>
-            <i className="p-2" style={{fontSize:"11px"}}>May 2019 - Sep 2019</i>
-            <p className="pl-2 text-mute">
-            I was also part of a full-stack development team that worked on a product called<a href="https://tembea.andela.com/" 
-            target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-            > Tembea. </a> 
+            I was part of a team that worked on a product called Authors Haven.
+            This is a social platform that allows writers/article authors to express themselves
+            and be sure to reach out to their target audience.<br></br>
+            {/* <strong className="text-muted">Stacks</strong> */}
+            {/* <ul className="ml-4">
+                <li>Javascript - React Redux</li>
+                <li>Python - DRF</li>
+            </ul> */}
+            I was also part of a full-stack development team that worked on a product called Tembea.
             This project was aimed at managing Andela's travel and transfers.<br></br>
-            Stacks: Angular, NodeJS <br></br>
+            {/* <strong className="text-muted">Stacks</strong>
+            <ul className="ml-4">
+                <li>Javascript - React Apollo</li>
+                <li>Python - Django Graphene</li>
+            </ul> */}
             Achievements:<br></br>
             <ul className="pl-4">
                 <li>
@@ -141,31 +166,13 @@ class Cv extends React.Component{
                     During this period, Tembea managed to increase the efficiency of local travel activities 
                     in the company. 
                 </li>
-                <li>I was also a Technical coordinator for the team for a month. The team output
+                <li>I was also a Technical coordinator for the team for a month. The team's output
                     during this period increased by a large margin.
                 </li>
             </ul>
             </p>
             
             </div>
-    </div>
-    <div  className="text-left text-sm" style={{fontSize: '15.5px'}}>
-            <b>Software Engineer at Medbook Africa, Nairobi</b><br></br>
-            <label className="text-muted">October 2019 - Current</label><br></br>
-            <p className="pl-2 text-mute">
-                I am part of a frontend development team that is working on a product called 
-                <a href="https://mediclaim.medbookafrica.com/" 
-                target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}
-                > Mediclaim. </a> 
-            This is a health management system that involves the processing of insurance claims, authorizations,
-            and handling customer requests.
-            <br></br>
-            <strong className="text-muted">Stacks</strong>
-            <ul className="ml-4">
-                <li>Angular 8</li>
-                <li>Php Laravel</li>
-            </ul>
-            </p>
     </div>
 
     <hr></hr>
@@ -183,7 +190,7 @@ class Cv extends React.Component{
     <div  className="text-left text-sm">
             <h6><b>Hobbies</b></h6>
             <p className="pl-2 text-mute">
-                Travelling, Camping, and Hiking
+                Travelling
             </p>
     </div>
 
