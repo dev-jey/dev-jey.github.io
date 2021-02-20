@@ -55,6 +55,7 @@ class Cv extends React.Component{
                         <li>Patterns: (MVC), Rest APIs and GraphQL.</li>
                         <li>Testing & linting: TravisCI, CircleCI</li>
                         <li>Data scraping, analysis and visualization</li>
+                        <li>UI/UX: Adobe XD, Figma</li>
                     </ul>
                 </div>
                 <div className="col-6 p-1">Languages & Frameworks
@@ -134,6 +135,7 @@ class Cv extends React.Component{
             </ul> */}
             </p>
     </div>
+    <br/><br/>
             <b>Software Engineer at Andela, Nairobi</b><br></br>
             <label className="text-muted">September 2018 - September 2019</label><br></br>
             {/* <i className="p-2" style={{fontSize:"11px"}}>January 2019 - April 2019</i> */}
