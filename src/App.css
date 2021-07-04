@@ -37,7 +37,7 @@ html {
 }
 .normal-hr-2{
   width: 80%;
-  margin: auto;
+  /* margin: auto; */
   margin-bottom: 1%;
   border-radius: 1px;
   background: rgb(255, 255, 255);
