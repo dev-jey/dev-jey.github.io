@@ -33,7 +33,7 @@ class Cv extends React.Component{
         <div className="text-left text-sm"  style={{fontSize: '15.5px'}}>
             <h6><b>Profile</b></h6>
             <p className="p-2 text-mute">
-            I am a passionate full stack software developer with over 3 years of experience in the field. My main stack is Python & Javascript and I have immense experience also working with related technologies in architecture design. Throughout my time as a software developer, I have worked with different teams to create applications that optimized processes, saved on cost, and improved users' experience.            
+            I am a passionate full stack software developer with over 4 years of experience in the field. My main stack is Python & Javascript and I have immense experience also working with related technologies in architecture design. Throughout my time as a software developer, I have worked with different teams to create applications that optimized processes, saved on cost, and improved users' experience.            
             </p>
         </div>
         <hr></hr>
@@ -119,6 +119,33 @@ class Cv extends React.Component{
         <hr></hr>
             <h6><b>Work Experience</b></h6>
 
+        <div  className="text-left text-sm" style={{fontSize: '15.5px'}}>
+            <b>Freelance Software Engineer at Upwork</b><br></br>
+            <label className="text-muted">January 2021 - Current</label><br></br>
+            <p className="pl-2 text-mute">
+                I am currently a freelance software engineer on Upwork whereby I have worked on a number of
+                projects with international clients. Here are some of the clients that I have worked with:
+                <br>
+                </br>
+                <ul className="pl-4">
+                <li>
+                    Consumer BI.<br></br>
+                    This is a start up based in Netherlands, that I worked with for 3 months, and 
+                    successfully delivered a data science project using python Django, NLP and AI tools.
+                    </li>
+                <li>
+                    Menda Software.<br></br>
+                    This is a legal tech start up based in Australia, that I have worked with as a full stack developer in Django and React. 
+                    Over time, I have helped augment a lot of features to the application and deploy to production.
+                </li>
+                </ul>
+            {/* <strong className="text-muted">Stacks</strong>
+            <ul className="ml-4">
+                <li>Javascript - Angular 8</li>
+                <li>Python - Flask</li>
+            </ul> */}
+            </p>
+    </div>
     <div  className="text-left text-sm" style={{fontSize: '15.5px'}}>
             <b>Software Engineer at Medbook Africa, Nairobi</b><br></br>
             <label className="text-muted">October 2019 - December 2020</label><br></br>
@@ -127,7 +154,6 @@ class Cv extends React.Component{
                 Mediclaim.
             This is a health management system that involves the processing of insurance claims, authorizations,
             and handling customer requests.
-            <br></br>
             {/* <strong className="text-muted">Stacks</strong>
             <ul className="ml-4">
                 <li>Javascript - Angular 8</li>
@@ -135,7 +161,6 @@ class Cv extends React.Component{
             </ul> */}
             </p>
     </div>
-    <br/><br/>
             <b>Software Engineer at Andela, Nairobi</b><br></br>
             <label className="text-muted">September 2018 - September 2019</label><br></br>
             {/* <i className="p-2" style={{fontSize:"11px"}}>January 2019 - April 2019</i> */}
@@ -192,7 +217,7 @@ class Cv extends React.Component{
     <div  className="text-left text-sm">
             <h6><b>Hobbies</b></h6>
             <p className="pl-2 text-mute">
-                Travelling
+                Travelling, Hiking
             </p>
     </div>
 
