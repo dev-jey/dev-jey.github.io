@@ -5,15 +5,12 @@ class Cv extends React.Component {
         return <div className="p-4">
             <div className="text-center">James Savali,<label className="text-muted">&nbsp;&nbsp;Senior Software Engineer</label>
                 <br></br>
-                Email: <strong><a href='mailto:hello@devjey.info'>hello@devjey.info</a></strong>
+                Email: <strong><a href='mailto:savalijey@gmail.com'>savalijey@gmail.com</a></strong>
                 <br></br>
-                Mobile No. +254708197333
-                <br></br>
-                Languages: English, Kiswahili
+                Languages: English
                 <br></br>
                 Nationality: Kenyan
                 <br></br>
-                Portfolio: <a href="https://devjey.info" target="_blank">devjey.info</a>
                 <div className="col-md-6 text-center mt-2 mx-auto">
 
                     <a href="https://github.com/dev-jey" target="_blank" rel="noopener noreferrer" className="text-dark">
@@ -33,7 +30,8 @@ class Cv extends React.Component {
             <div className="text-left text-sm" style={{ fontSize: '15.5px' }}>
                 <h6><b>Profile</b></h6>
                 <p className="p-2 text-mute">
-                    I am a passionate full stack software developer with over 5 years of experience in the field. My main stack is Python & Javascript and I have immense experience also working with related technologies in architecture design. Throughout my time as a software developer, I have worked with different teams to create applications that optimized processes, saved on cost, and improved users' experience.
+                    I am a passionate full stack software developer with over 5 years of experience in the field. My main stack is Python & Javascript and I have immense experience also working with related technologies in system architecture design.
+                    Throughout my time as a software developer, I have worked with different teams to create applications that optimized processes, saved on cost, and improved users' experience.
                 </p>
             </div>
             <hr></hr>
@@ -42,71 +40,35 @@ class Cv extends React.Component {
                 <br></br>
                 <h6><b>Skills</b></h6>
                 <div className="container-fluid row">
-                    <div className="col-6 p-1">Personal Attributes
+                    <div className="col-md-6 p-1">Personal Attributes
                         <hr className="normal-hr-2"></hr>
                         <ul className="pl-4">
                             <li>Good communication skills</li>
                             <li>Effective team player and leader</li>
                             <li>Prompt action on feedback & attention to detail</li>
                         </ul>
-                        Other Skills
+                        Tech Skills
                         <hr className="normal-hr-2"></hr>
                         <ul className="pl-4">
                             <li>CI/CD: Github Actions, AWS, Digital Ocean</li>
                             <li>Patterns: (MVC), Rest APIs and GraphQL.</li>
+                            <li>Deployment, config & management of docker containers.</li>
                             <li>Testing & linting: TravisCI, CircleCI</li>
                             <li>Data scraping, analysis and visualization</li>
                             <li>UI/UX: Adobe XD, Figma</li>
                         </ul>
                     </div>
-                    <div className="col-6 p-1">Languages & Frameworks
+                    <div className="col-md-6 p-1">Languages & Frameworks
                         <hr className="normal-hr-2"></hr>
-                        Python
-                        <div class="progress" style={{ height: "6px" }}>
-                            <div class="progress-bar bg-dark" role="progressbar" style={{ width: "96%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                        Flask
-                        <div class="progress" style={{ height: "6px" }}>
-                            <div class="progress-bar bg-dark" role="progressbar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                        Django
-                        <div class="progress" style={{ height: "6px" }}>
-                            <div class="progress-bar bg-dark" role="progressbar" style={{ width: "99%" }} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                        DRF
-                        <div class="progress" style={{ height: "6px" }}>
-                            <div class="progress-bar bg-dark" role="progressbar" style={{ width: "99%" }} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                        Bs4, Selenium, Scrapy, Numpy, Pandas
-                        <div class="progress" style={{ height: "6px" }}>
-                            <div class="progress-bar bg-dark" role="progressbar" style={{ width: "95%" }} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                        Javascript
-                        <div class="progress" style={{ height: "6px" }}>
-                            <div class="progress-bar bg-dark" role="progressbar" style={{ width: "96%" }} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                        React
-                        <div class="progress" style={{ height: "6px" }}>
-                            <div class="progress-bar bg-dark" role="progressbar" style={{ width: "96%" }} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-
-                        HTML/SCSS/Bootstrap/Tailwind
-                        <div class="progress" style={{ height: "6px" }}>
-                            <div class="progress-bar bg-dark" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
-                        PostgreSQL, MySQL, MongoDB
-                        <div class="progress" style={{ height: "6px" }}>
-                            <div class="progress-bar bg-dark" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div>
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>Django</li>
+                        <li>Django Rest Framework (DRF)</li>
+                        <li>Bs4, Selenium, Scrapy, Numpy, Pandas</li>
+                        <li>PostgreSQL, MySQL, MongoDB</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>HTML/SCSS/Bootstrap/Tailwind</li>
                     </div>
                 </div>
 
@@ -183,23 +145,14 @@ class Cv extends React.Component {
                     </div>
                     <b>Software Engineer at Andela, Nairobi</b><br></br>
                     <label className="text-muted">September 2018 - September 2019</label><br></br>
-                    {/* <i className="p-2" style={{fontSize:"11px"}}>January 2019 - April 2019</i> */}
                     <p className="pl-2 text-mute">
                         I was part of a team that worked on a product named Authors Haven.
                         This is a social platform that allows writers/article authors to express themselves
                         and be sure to reach out to their target audience.<br></br>
-                        {/* <strong className="text-muted">Stacks</strong> */}
-                        {/* <ul className="ml-4">
-                <li>Javascript - React Redux</li>
-                <li>Python - DRF</li>
-            </ul> */}
+                        
                         I was also part of a full-stack development team that worked on a product named Tembea.
                         This project was aimed at managing Andela's travel and transfers.<br></br>
-                        {/* <strong className="text-muted">Stacks</strong>
-            <ul className="ml-4">
-                <li>Javascript - React Apollo</li>
-                <li>Python - Django Graphene</li>
-            </ul> */} <br>
+                        <br>
                             </br><br></br>
                     </p>
 
@@ -230,17 +183,15 @@ class Cv extends React.Component {
             <div className="text-left text-sm" style={{ fontSize: '15.5px' }}>
                 <h6><b>References</b></h6>
                 <div className="container row">
-                    <div className="col-6 text-mute">
+                    <div className="col-md-6 text-mute pb-4">
                         Frank Magoba<br></br>
                         Software Engineer, Medbook Africa<br></br>
                         franklinmagoba4@gmail.com<br></br>
-                        +254725254911
                     </div>
-                    <div className="col-6 text-mute">
+                    <div className="col-md-6 text-mute">
                         Hesbon Maiyo<br></br>
                         Software Engineer, Yoyo Wallet<br></br>
                         hesbonkiptoo1996@gmail.com<br></br>
-                        +254727737299
                     </div>
                 </div>
             </div>
