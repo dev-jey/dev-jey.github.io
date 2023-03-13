@@ -128,7 +128,7 @@ class Cv extends React.Component {
                     </div>
                     <div className="text-left text-sm" style={{ fontSize: '15.5px' }}>
                         <b>Front-end Engineer at Playfooz</b><br></br>
-                        <label className="text-muted">November 2021 - September 2022</label><br></br>
+                        <label className="text-muted">November 2021 - March 2022</label><br></br>
                         <p className="pl-2 text-mute">
                             I have worked at <a href='https://playfooz.com' target="_blank">Playfooz</a>, a company based in Dubai, as a front-end engineer mainly helping to rebrand the company's gaming web application to 
                             PlayFooz (previously Arab Millionaire).
