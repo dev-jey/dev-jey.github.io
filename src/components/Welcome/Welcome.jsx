@@ -23,7 +23,7 @@ export class Welcome extends Component {
                         <div className="col-md-4 text-center mt-2 mx-auto">
                                 <h4>James Savali</h4>
                                 <i className="fas fa-phone fa-sm"></i>&nbsp;Mobile No: +254708197333<br></br>
-                                <i class="far fa-envelope fa-sm"></i>&nbsp;Email: hello@devjey.info
+                                <i class="far fa-envelope fa-sm"></i>&nbsp;Email: savalijey@gmail.com
                             </div>
                         <div className="col-md-4 text-center mt-2 mx-auto">
                                 <a href="https://github.com/dev-jey" onClick={()=>ReactGA.event({

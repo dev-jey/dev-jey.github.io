@@ -17,7 +17,7 @@ export class Contact extends Component {
                         <div className="row">
                             <div className="text-muted col-md-4 text-left mt-5">
                                 <i class="fas fa-phone fa-sm"></i>&nbsp;Mobile No: +254708197333<br></br>
-                                <i class="far fa-envelope fa-sm"></i>&nbsp;Email: hello@devjey.info
+                                <i class="far fa-envelope fa-sm"></i>&nbsp;Email: savalijey@gmail.com
                             </div>
                             <div className="col-md-4 text-md-center mt-5">
                                 <a href="https://github.com/dev-jey"  onClick={()=>ReactGA.event({
